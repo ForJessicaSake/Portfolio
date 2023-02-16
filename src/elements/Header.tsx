@@ -2,7 +2,7 @@ import Button from "../custom/Button";
 import block from "../assets/block.svg";
 const Header = () => {
   return (
-    <header className="flex justify-between py-16 px-6">
+    <header className="flex lg:flex-row flex-col justify-between py-16 px-6">
       <figcaption className="w-6/12">
         <h1 className="text-3xl font-semibold">Hi, I'm Jessica – a <span className="text-primary">Frontend Engineer</span> and <span className="text-primary">Technical Writer</span></h1>
         <p className="py-6 text-sm">
