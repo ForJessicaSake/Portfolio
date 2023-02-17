@@ -6,8 +6,8 @@ import stroke from "../assets/stroke.svg";
 
 const Skills = () => {
   return (
-    <section className="flex flex-col px-6 py-20">
-      <section className="flex justify-around items-center w-3/12 pb-10">
+    <section className="flex flex-col px-6 py-20 cursor-pointer">
+      <section className="flex justify-around items-center lg:w-3/12 w-72 pb-10">
         <h1 className="text-2xl">
           <span className="text-primary ">#</span>Skills
         </h1>
@@ -16,17 +16,72 @@ const Skills = () => {
         </figure>
       </section>
 
-      <section className="w-3/12 pr-2 px-5 ">
-        <div className="flex flex-col">
+      <section className=" px-5 flex flex-col-reverse lg:flex-row justify-between">
+        <div className="w-full lg:w-3/12 lg:pb-0 pb-10 flex flex-col pr-2">
           <figure className="flex justify-between pr-10 relative">
-            <img src={dots} alt="dots" className="w-11 h-11"/>
-            <img src={rectangle} alt="rectangle" className="w-16 h-16 relative bottom-6" />
+            <img src={dots} alt="dots" className="lg:w-11 lg:h-11 w-16 h-16"/>
+            <img
+              src={rectangle}
+              alt="rectangle"
+              className="w-20 h-20 relative bottom-6"
+            />
           </figure>
           <figure className="flex justify-between pt-10 relative">
-            <img src={block} alt="block" className="w-20 h-20" />
-            <img src={dots} alt="dots" className="w-11 h-11 relative bottom-6"/>
-            <img src={square} alt="square" className="w-11 h-11"/>
+            <img src={block} alt="block" className="lg:w-20 lg:h-20 w-24 h-24" />
+            <img
+              src={dots}
+              alt="dots"
+              className="lg:w-11 lg:h-11 w-14 h-14 relative bottom-6 "
+            />
+            <img src={square} alt="square" className="lg:w-11 lg:h-11 w-14 h-14" />
           </figure>
+        </div>
+        <div className=" grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm w-12/12 lg:w-8/12 lg:pb-0 pb-20">
+        <table className="lg:w-52  w-36">
+            <tr>
+            <th className="border text-start px-4 h-10">Languages</th>
+            </tr>
+            <td className="border border-t-0 px-4 py-2 leading-6">JavaScript TypeScript</td>
+          </table>
+          <table className="lg:w-52  w-36">
+            <tr>
+            <th className="border text-start px-4 h-10">Mark up</th>
+            </tr>
+            <td className="border border-t-0 px-4  py-2 leading-6">Html <br/> XML</td>
+          </table>
+
+          <table className="lg:w-52  w-36">
+            <tr>
+            <th className="border text-start px-4 h-10">Frameworks</th>
+            </tr>
+            <td className="border border-t-0 px-4 py-2 leading-6">React <br/> Next </td>
+          </table>
+
+          <table className="lg:w-52  w-36">
+            <tr>
+            <th className="border text-start px-4 h-10">State Libraies</th>
+            </tr>
+            <td className="border border-t-0 px-4  py-2 leading-6">
+              Jotai <br/> Zustand <br/> React-Query 
+            </td>
+          </table>
+
+          <table className="lg:w-52  w-36">
+            <tr>
+              <th className="border text-start px-4 h-10">Stylesheet</th>
+            </tr>
+            <td className="border border-t-0 px-4 py-2 leading-6">
+             CSS <br/> Tailwind <br/> Emotion <br/> Styled-Component Chakra UI
+            </td>
+          </table>
+          <table className="lg:w-52  w-36">
+            <tr>
+            <th className="border text-start px-4">Backend-as-a-service</th>
+            </tr>
+            <td className="border border-t-0 px-4 py-2 leading-6">
+             Firebase 
+            </td>
+          </table>
         </div>
       </section>
     </section>
