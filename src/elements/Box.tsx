@@ -13,7 +13,7 @@ const Box = () => {
             <img src ={quotes} alt ="quotes" className="lg:h-8 lg:w-8 w-7 h-7"/>
         </figure>
       </section>
-      <section className="animate-pulse flex justify-end lg:w-10/12 w-11/12">
+      <section className="flex justify-end lg:w-10/12 w-11/12">
         <h3 className="border border-t-0 border-dotted border-secondary h-11 flex justify-center items-center lg:w-2/12 w-4/12 lg:text-base text-xs px-1">
          - Billie Eilish
         </h3>
