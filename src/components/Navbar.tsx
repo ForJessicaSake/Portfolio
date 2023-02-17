@@ -37,6 +37,11 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <a className="active:text-white">
+            <span className="text-primary">#</span>skills
+          </a>
+        </li>
+        <li>
+          <a className="active:text-white">
             <span className="text-primary">#</span>project
           </a>
         </li>

@@ -19,7 +19,7 @@ const Header = () => {
       <figure className="lg:w-4/12 w-full lg:pt-0 py-16 flex justify-between lg:items-center lg:px-8 relative">
         <img src={block} alt="block" />
         <img src={avartar} alt="" className="lg:w-48 w-44 absolute lg:left-40 left-36 bottom-6 lg:bottom-0" />
-        <img src={dots} alt="dots" className="relative lg:top-20 lg:left-4 top-14"/>
+        <img src={dots} alt="dots" className="relative lg:top-20 lg:left-4 right-10 top-28 h-14 w-14"/>
       </figure>
     </header>
   );
