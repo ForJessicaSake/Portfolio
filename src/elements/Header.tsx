@@ -20,7 +20,6 @@ const Header = () => {
         <img src={block} alt="block" />
         <img src={avartar} alt="" className="lg:w-48 w-44 absolute lg:left-40 left-36 bottom-6 lg:bottom-0" />
         <img src={dots} alt="dots" className="relative lg:top-20 lg:left-4 top-14"/>
-
       </figure>
     </header>
   );
