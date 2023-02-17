@@ -42,7 +42,7 @@ const Contact = () => {
             <input placeholder="Email" className="bg-background border  h-10 px-2 py-2 lg:mt-0 mt-4 lg:w-64 w-full"/>
         </section>
         <input placeholder="Title" className="bg-background border h-10 px-2 py-2 lg:w-full w-full"/>
-        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 py-2 my-5 lg:w-full w-full"></textarea>
+        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 py-2 mb-8 my-5 lg:w-full w-full"></textarea>
         <Button text="Send"/>
       </form>
     </section>
