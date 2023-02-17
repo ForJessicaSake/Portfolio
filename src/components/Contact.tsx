@@ -15,7 +15,7 @@ const Contact = () => {
         </figure>
       </section>
       <section className="flex lg:flex-row flex-col justify-between text-sm">
-        <div className="w-full lg:w-6/12">
+        <div className="w-full lg:w-6/12 lg:pb-0 pb-10 text-justify">
           <p>
             I'm currently on the lookout for exciting opportunities, whether
             it's full-time, contract, or freelance work. If you think I could be
@@ -24,7 +24,7 @@ const Contact = () => {
             opportunities!
           </p>
         </div>
-        <div className="w-full lg:w-3/12 leading-10 border px-4">
+        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5">
           <h3 className="text-white">Message me here</h3>
           <figure className="flex w-64 justify-between items-center">
             <img src={email} alt="email" className ="h-5 w-5"/>
@@ -36,13 +36,13 @@ const Contact = () => {
           </figure>
         </div>
       </section>
-      <form className="flex flex-col w-6/12">
+      <form className="flex flex-col lg:w-6/12 w-full">
         <section className="flex lg:flex-row flex-col  justify-between my-4">
-            <input placeholder="Name" className="bg-background border h-10 px-2 py-2 lg:w-64 w-80"/>
-            <input placeholder="Email" className="bg-background border pr-16 h-10 px-2 py-2 lg:mt-0 mt-4 lg:w-64 w-80"/>
+            <input placeholder="Name" className="bg-background border h-10 px-2 py-2 lg:w-72 w-full"/>
+            <input placeholder="Email" className="bg-background border  h-10 px-2 py-2 lg:mt-0 mt-4 lg:w-64 w-full"/>
         </section>
-        <input placeholder="Title" className="bg-background border h-10 px-2 py-2 lg:w-full w-80"/>
-        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 py-2 my-5 lg:w-full w-80"></textarea>
+        <input placeholder="Title" className="bg-background border h-10 px-2 py-2 lg:w-full w-full"/>
+        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 py-2 my-5 lg:w-full w-full"></textarea>
         <Button text="Send"/>
       </form>
     </section>
