@@ -16,8 +16,8 @@ const Skills = () => {
         </figure>
       </section>
 
-      <section className=" px-5 flex flex-col-reverse lg:flex-row justify-between">
-        <div className="w-full lg:w-3/12 lg:pb-0 pb-10 flex flex-col pr-2">
+      <section className="px-5 flex flex-col-reverse lg:flex-row justify-between">
+        <div className="w-full lg:w-3/12 lg:pb-0 pb-6 flex flex-col pr-2">
           <figure className="flex justify-between pr-10 relative">
             <img src={dots} alt="dots" className="lg:w-11 lg:h-11 w-16 h-16"/>
             <img
@@ -36,7 +36,7 @@ const Skills = () => {
             <img src={square} alt="square" className="lg:w-11 lg:h-11 w-14 h-14" />
           </figure>
         </div>
-        <div className=" grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm w-12/12 lg:w-8/12 lg:pb-0 pb-20">
+        <div className=" grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm w-12/12 lg:w-8/12 lg:pb-0 pb-16">
         <table className="lg:w-52  w-36">
             <tr>
             <th className="border text-start px-4 h-10">Languages</th>

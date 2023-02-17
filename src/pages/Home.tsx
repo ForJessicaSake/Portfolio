@@ -1,3 +1,4 @@
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
@@ -11,6 +12,7 @@ const Home:React.FC = () => {
     <Header/>
     <Box/>
     <Skills/>
+    <Contact/>
     <Footer/>
     </main>
   )
