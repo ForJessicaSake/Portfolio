@@ -62,7 +62,7 @@ const Skills = () => {
             <th className="border text-start px-4 h-10">State Libraies</th>
             </tr>
             <td className="border border-t-0 px-4  py-2 leading-6">
-              Jotai <br/> Zustand <br/> React-Query 
+              Jotai <br/> Zustand <br/> React Query 
             </td>
           </table>
 
@@ -79,7 +79,8 @@ const Skills = () => {
             <th className="border text-start px-4">Backend-as-a-service</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-             Firebase 
+             Firebase <br/>
+             Supabase
             </td>
           </table>
         </div>
