@@ -59,13 +59,13 @@ const handlePage = () => {
 
 
 return (
-    <section className="flex flex-col px-6">
+    <section className="flex flex-col px-6 pb-20">
        <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
-        <h1 className="text-2xl">
+        <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Publications
         </h1>
         <figure className="pl-4">
-        <img src={stroke} alt="line"className="w-36" />
+        <img src={stroke} alt="line"className="w-20" />
         </figure>
       </section>
     <section className="flex place-items-center w-full">
@@ -76,12 +76,12 @@ return (
         <p className="text-sm font-light text-center">...</p>
       )}
       {status === "success" && (
-    <div className="grid grid-col-1 lg:grid-cols-3 gap-4 place-items-center w-full">
+    <div className="grid grid-col-1 lg:grid-cols-3 lg:gap-4 gap-6 place-items-center w-full">
 
       {data?.map((articles:ArticleType) => (
           <article
             key={articles.id}
-            className=" mb-6 items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
+            className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
           >
             <figure className="border w-80">
             <img
@@ -93,11 +93,11 @@ return (
        
               <figcaption className="w-80">
               <a href={`https://forjessicasake.hashnode.dev/${articles.slug}`}>
-                <h2 className="font-bold h-14 lg:text-sm text-sm border-t-0 border px-2 py-2">
+                <h2 className="font-bold h-14 items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
                   {articles.title}
                 </h2>
                 </a>
-                <p className="h-32 text-xs border border-t-0 px-2 py-1">{articles.brief}</p>
+                <p className="h-32 text-xs border border-t-0 px-2 py-1 text-justify">{articles.brief}</p>
               </figcaption>
           </article>
         ))}

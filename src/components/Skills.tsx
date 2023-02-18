@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section className="flex flex-col px-6 py-20 cursor-pointer">
       <section className="flex justify-around items-center lg:w-3/12 w-72 pb-10">
-        <h1 className="text-2xl">
+      <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Skills
         </h1>
         <figure className="pl-4">
