@@ -22,9 +22,9 @@ const Navbar: React.FC = () => {
           <img src={Logo} alt="Logo" className="w-6 h-6 lg:w-5 lg:h-5"/>
           <figcaption className="font-medium text-lg  lg:text-base">Jessica</figcaption>
         </figure>
-        { nav ?  <img src={Menu} alt="menu" className="w-6 h-6 lg:hidden block" onClick={navClose} /> : <img src={Cancel} alt="cancel" className="w-6 h-6 lg:hidden block" onClick={navClose} /> }
+        { nav ? <img src={Cancel} alt="cancel" className="w-6 h-6 lg:hidden block" onClick={navClose} /> : <img src={Menu} alt="menu" className="w-6 h-6 lg:hidden block" onClick={navClose} />  }
       </section>
-      <ul className={`${nav ? "hidden": "block"} px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0  top-20 py-8 bg-background w-full h-full flex flex-col  justify-between`}>
+      <ul className={`${nav ? "block": "hidden"} px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0  top-20 py-8 bg-background w-full h-full flex flex-col  justify-between`}>
         <li>
           <Link to ="/" className="active:text-white">
             <span className="text-primary">#</span>home

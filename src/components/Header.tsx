@@ -2,6 +2,11 @@ import Button from "../custom/Button";
 import block from "../assets/block.svg";
 import avartar from "../assets/header.png"
 import dots from "../assets/Dots.svg"
+import GitHub from "../assets/Github.svg";
+import { FiLinkedin, FiTwitter } from "react-icons/fi";
+import { SiHashnode } from "react-icons/si";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <header className="flex lg:flex-row flex-col lg:items-center justify-between py-16 px-6">
@@ -15,6 +20,20 @@ const Header = () => {
           articles while exploring as a guest writer or on my hashnode blog.
         </p>
         <Button text="contact me!!" />
+        <figure className="flex justify-between items-center w-32 py-0">
+          <Link to="https://github.com/ForJessicaSake">
+            <img src={GitHub} alt="GitHub" className="h-8 w-8" />
+          </Link>
+          <Link to="https://hashnode.com/@ForJessicasake">
+            <SiHashnode className="h-5 w-5" />
+          </Link>
+          <Link to="https://www.linkedin.com/in/jessica-joseph-/">
+            <FiLinkedin className="h-5 w-5" />
+          </Link>
+          <Link to="https://twitter.com/forJessica_sake">
+            <FiTwitter className="h-5 w-5" />
+          </Link>
+        </figure>
       </figcaption>
       <figure className="lg:w-4/12 w-full lg:pt-0 py-16 flex justify-between lg:items-center lg:px-8 relative">
         <img src={block} alt="block" />

@@ -10,8 +10,9 @@ Hey developers! I'm hyped to share my brand spanking new portfolio with you. Bui
 - React
 - TypeScript
 - TailwindCSS
-- Framer Motion
 - Jotai
+- React-query
+- Framer Motion
 
 ### Roadmap 🔍
 Here are some of the links you should look out for to make navigation on the site easier for you.
