@@ -65,7 +65,7 @@ return (
           <span className="text-primary ">#</span>Publications
         </h1>
         <figure className="pl-4">
-        <img src={stroke} alt="line"className="w-20" />
+        <img src={stroke} alt="line"className="lg:w-20 w-32" />
         </figure>
       </section>
     <section className="flex place-items-center w-full">
@@ -76,7 +76,7 @@ return (
         <p className="text-sm font-light text-center">...</p>
       )}
       {status === "success" && (
-    <div className="grid grid-col-1 lg:grid-cols-3 lg:gap-4 gap-6 place-items-center w-full">
+    <div className="grid grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
 
       {data?.map((articles:ArticleType) => (
           <article

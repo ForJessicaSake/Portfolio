@@ -5,7 +5,7 @@ import Button from "../custom/Button";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col px-6 pb-20">
+    <section className="flex flex-col px-6 pb-10">
       <section className="flex justify-around items-center lg:w-3/12 w-72">
       <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Contacts
@@ -15,7 +15,7 @@ const Contact = () => {
         </figure>
       </section>
       <section className="flex lg:flex-row flex-col justify-between text-sm">
-        <div className="w-full lg:w-6/12 lg:pb-0 pb-10 text-justify">
+        <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-justify mt-4">
           <p>
             I'm currently on the lookout for exciting opportunities, whether
             it's full-time, contract, or freelance work. If you think I could be
@@ -24,7 +24,7 @@ const Contact = () => {
             opportunities!
           </p>
         </div>
-        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5">
+        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4">
           <h3 className="text-white">Message me here</h3>
           <figure className="flex w-64 justify-between items-center">
             <img src={email} alt="email" className ="h-5 w-5"/>
@@ -42,7 +42,7 @@ const Contact = () => {
             <input placeholder="Email" className="bg-background border  h-10 px-2 py-2 lg:mt-0 mt-4 lg:w-64 w-full"/>
         </section>
         <input placeholder="Title" className="bg-background border h-10 px-2 py-2 lg:w-full w-full"/>
-        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 py-2 mb-8 my-5 lg:w-full w-full"></textarea>
+        <textarea placeholder="Message" className="bg-background border h-28 flex items-start justify-start px-2 mb-6 my-5 lg:w-full w-full"></textarea>
         <Button text="Send"/>
       </form>
     </section>

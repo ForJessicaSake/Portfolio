@@ -6,7 +6,7 @@ import { SiHashnode } from "react-icons/si";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="flex lg:flex-row flex-col justify-between lg:items-center w-full lg:h-48 h-full cursor-pointer py-2 px-6">
+    <footer className="flex lg:flex-row flex-col justify-between lg:items-center w-full lg:h-48 h-full cursor-pointer px-6">
       <nav className="text-sm">
         <section className="flex justify-between items-center w-96">
           <figure className="flex items-center lg:w-24 w-28 justify-between py-3">
