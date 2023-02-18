@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="flex flex-col px-6 pb-10" id="contact">
       <section className="flex justify-around items-center lg:w-3/12 w-72">
       <h1 className="lg:text-2xl text-xl">
-          <span className="text-primary ">#</span>Contacts
+          <span className="text-primary ">#</span>Contact
         </h1>
         <figure className="pl-4">
           <img src={stroke} alt="line" />
