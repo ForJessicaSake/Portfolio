@@ -3,6 +3,7 @@ import Card from "../elements/Card";
 import dockett from "../assets/dockett.png";
 import Lamoore from "../assets/Lamoore.png";
 import sunnyside from "../assets/sunnyside.png";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -16,22 +17,27 @@ const Project = () => {
         </figure>
       </section>
       <section className="grid grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
+       <Link to="https://dockett.vercel.app/">
         <Card
           image={dockett}
           title="Sticky Note Web Application"
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Our app is packed with powerful features and intuitive design, making it easy for anyone to use."
         />
-
+        </Link>
+        <Link to="https://sunnyside-agencies.vercel.app/">
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
           about="A responsive and user-friendly site built with the latest frontend technologies such as TypeScript, React, Jotai, and TailwindCSS. This project showcases my skills in using TypeScript for typechecking, Jotai for managing client states and tailwindCSS for the design."
         />
+        </Link>
+        <Link to="https://lamoore.vercel.app/">
         <Card
           image={Lamoore}
           title="Lamoore: Ecommerce clothing website"
           about="Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
         />
+        </Link>
       </section>
     </section>
   );
