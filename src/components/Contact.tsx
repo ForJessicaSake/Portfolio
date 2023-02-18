@@ -5,7 +5,7 @@ import Button from "../custom/Button";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col px-6 pb-10">
+    <section className="flex flex-col px-6 pb-10" id="contact">
       <section className="flex justify-around items-center lg:w-3/12 w-72">
       <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Contacts

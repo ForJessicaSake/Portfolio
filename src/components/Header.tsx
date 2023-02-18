@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="flex lg:flex-row flex-col lg:items-center justify-between lg:py-16 py-12 px-6">
+    <header className="flex lg:flex-row flex-col lg:items-center justify-between lg:py-16 py-12 px-6" id="about">
       <figcaption className="lg:w-6/12 w-full">
         <h1 className="lg:text-3xl text-2xl font-semibold">Hi, I'm Jessica – a <span className="text-primary">Frontend Engineer</span> and <span className="text-primary">Technical Writer</span></h1>
         <p className="py-6 text-sm text-justify">

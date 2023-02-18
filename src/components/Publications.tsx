@@ -59,7 +59,7 @@ const handlePage = () => {
 
 
 return (
-    <section className="flex flex-col px-6 pb-20">
+    <section className="flex flex-col px-6 pb-20" id="publications">
        <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
         <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Publications
