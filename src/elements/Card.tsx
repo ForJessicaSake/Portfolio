@@ -8,7 +8,7 @@ type Project = {
 
 const Card = ({ image, title, about }: Project) => {
   return (
-    <section className="border w-80">
+    <section className="border w-80 cursor-pointer">
       <img src={image} alt="" />
       <h2 className="font-bold text-justify flex items-center h-14 lg:text-sm text-sm border-t-0 border px-2 py-2">
         {title}
