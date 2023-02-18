@@ -5,10 +5,10 @@ const Guestposts = () => {
     <section className="flex flex-col px-6">
        <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
         <h1 className="text-2xl">
-          <span className="text-primary ">#</span>Experience
+          <span className="text-primary">#</span>Experience
         </h1>
         <figure className="pl-4">
-          <img src={stroke} alt="line"className="w-36" />
+          <img src={stroke} alt="line"className="w-28" />
         </figure>
       </section>
     </section>

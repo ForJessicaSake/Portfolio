@@ -15,6 +15,7 @@ const Home:React.FC = () => {
     <Header/>
     <Box/>
     <Skills/>
+    <Guestposts/>
     <Project/>
     <Publications/>
     <Contact/>
