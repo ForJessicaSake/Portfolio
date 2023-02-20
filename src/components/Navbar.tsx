@@ -4,7 +4,6 @@ import Cancel from "../assets/x.svg"
 import media from "../assets/media.svg"
 import { navigation } from "../atoms/Atoms";
 import { useAtom } from "jotai/react";
-import {Link} from "react-router-dom"
 
 const Navbar: React.FC = () => {
   const [nav, setNav] = useAtom(navigation)
@@ -23,9 +22,9 @@ const Navbar: React.FC = () => {
       </section>
       <ul onClick={navClose} className={`${nav ? "block": "hidden"} px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0 h-96 top-20 py-8 lg:py-0 bg-background w-full flex flex-col  justify-between`}>
         <li>
-          <Link to ="/" className="active:text-white">
+          <a href="#about" className="active:text-white">
             <span className="text-primary">#</span>about-me
-          </Link>
+          </a>
         </li>
         <li>
           <a className="active:text-white" href="#skills">
