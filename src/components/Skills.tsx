@@ -71,7 +71,7 @@ const Skills = () => {
               <th className="border text-start px-4 h-10">Stylesheet</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-             CSS <br/> Tailwind <br/> Emotion <br/> Styled-Component Chakra UI
+             CSS <br/> Tailwind <br/> Emotion <br/> Styled-Component 
             </td>
           </table>
           <table className="lg:w-52  w-36">
