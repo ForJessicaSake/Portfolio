@@ -15,9 +15,13 @@ const Contact = () => {
 
   const handleSubmit = (e:any) => {
     e.preventDefault();
+    prompt("sent")
     if (toMail.name !== "" && toMail.email !== "" && toMail.message !== "") {
-      emailjs.sendForm('service_or1toa8', 'template_8w0a1ed', submit.current)
+      emailjs.sendForm('service_or1toa8', 'template_8w0a1ed', submit.current, 'VzAh-kzQKj2SeXc8v')
     }
+    else(
+      prompt("invalid details")
+    )
   }
 
     return (
