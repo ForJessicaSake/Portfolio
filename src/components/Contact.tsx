@@ -89,7 +89,7 @@ const Contact = () => {
             placeholder="Message"
             className="bg-background border h-28 flex items-start justify-start px-2 mb-6 my-5 lg:w-full w-full"
             value={toMail.message}
-            name="from_message"
+            name="message"
             onChange={(e) => setToMail({ ...toMail, message: e.target.value })}
           ></textarea>
           <Button text="Send" />
