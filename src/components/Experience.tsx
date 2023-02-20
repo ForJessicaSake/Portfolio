@@ -22,7 +22,7 @@ const Experience = () => {
               title="Frontend Channel Manager"
               company="EmpowerHerCommunity:Full time"
               date="May 2022 - Present"
-              experience="As a Frontend Slack Channel Manager, I  organize and led pair programming exercises for beginners and intermediates, providing valuable opportunities for skill development and growth using modern technologies like Slack, GitHub and Google workspaces. I closely monitor and track feedback and reviews from channel members, reporting any insights to the Community Manager."
+              experience="As a Frontend Slack Channel Manager, I  organize and lead pair programming exercises for beginners and intermediates, providing valuable opportunities for skill development and growth using modern technologies like Slack, GitHub and Google workspaces. I closely monitor and track feedback and reviews from channel members, reporting any insights to the Community Manager."
               skill="Web Development, Community Development"
             />
           </div>
