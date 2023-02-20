@@ -20,11 +20,7 @@ const Contact = () => {
           <p className="leading-6">
             I'm on the lookout for some new opportunities to flex my skills and
             expertise. If you're in need of a go-getter who's not afraid to roll
-            up their sleeves and tackle any challenge, then look no further!
-            Whether you're looking for a full-time team member, a contractor, or
-            someone to collaborate with on a freelance basis, I'm game. Let's
-            chat about how I can help take your business to the next level.
-            Shoot me a message and let's make it happen!
+            up their sleeves and tackle any challenge, feel free to shoot me a message. I'm game!
           </p>
         </div>
         <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4">
@@ -45,7 +41,7 @@ const Contact = () => {
         </div>
       </section>
       <form className="flex flex-col lg:w-6/12 w-full">
-        <section className="flex lg:flex-row flex-col  justify-between my-4">
+        <section className="flex lg:flex-row flex-col  justify-between my-3">
           <input
             placeholder="Name"
             className="bg-background border h-10 px-2 py-2 lg:w-72 w-full"

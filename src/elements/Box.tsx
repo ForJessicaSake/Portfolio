@@ -7,7 +7,7 @@ const Box = () => {
           <img src={quotes} alt="quotes" className="lg:h-8 lg:w-8 w-7 h-7" />
         </figure>
         <h3 className="border border-dotted border-secondary lg:h-16 h-24 flex justify-center items-center lg:w-8/12 w-10/12 leading-8 lg:text-base text-xs px-1 lg:pl-0 pl-6">
-             Cause everyone wants something from me now and I don't want to let em down.
+             Cause everybody wants something from me now and I don't wanna let 'em down.
         </h3>
         <figure className="absolute lg:right-52 right-12 lg:top-12 top-20">
           <img src={quotes} alt="quotes" className="lg:h-8 lg:w-8 w-7 h-7" />
