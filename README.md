@@ -23,5 +23,5 @@ Here are some of the links you should look out for to make navigation on the sit
 - contact
 
 ### Product
-Product display: [Production Website Link](https://portfolio-forjessicasake.vercel.app/)
+Product display: [Production Website Link](https://portfolio-jessicajoseph.vercel.app/)
 
