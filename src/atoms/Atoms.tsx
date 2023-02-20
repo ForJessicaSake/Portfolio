@@ -10,7 +10,4 @@ const mail = atom({
     message: "",
   });
   
-
-
-
 export {navigation, post, isLoading, page, mail}

@@ -12,7 +12,6 @@ const Contact = () => {
   const [toMail, setToMail] = useAtom(mail);
 
   const submit = useRef<any>();
-
   const handleSubmit = (e:any) => {
     e.preventDefault();
     if (toMail.name !== "" && toMail.email !== "" && toMail.message !== "") {
@@ -70,6 +69,7 @@ const Contact = () => {
               placeholder="Name"
               className="bg-background border h-10 px-2 py-2 lg:w-72 w-full"
               value={toMail.name}
+              name="from_name"
               onChange={(e) => setToMail({ ...toMail, name: e.target.value })}
             />
 
@@ -77,6 +77,7 @@ const Contact = () => {
               placeholder="Email"
               className="bg-background border  h-10 px-2 py-2 lg:mt-0 mt-4 lg:w-64 w-full"
               value={toMail.email}
+              name="from_email"
               onChange={(e) => setToMail({ ...toMail, email: e.target.value })}
             />
           </section>
@@ -88,6 +89,7 @@ const Contact = () => {
             placeholder="Message"
             className="bg-background border h-28 flex items-start justify-start px-2 mb-6 my-5 lg:w-full w-full"
             value={toMail.message}
+            name="from_message"
             onChange={(e) => setToMail({ ...toMail, message: e.target.value })}
           ></textarea>
           <Button text="Send" />
