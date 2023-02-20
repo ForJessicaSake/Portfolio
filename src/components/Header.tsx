@@ -16,7 +16,7 @@ const Header = () => {
   });
   return (
     <header
-      className="flex lg:flex-row flex-col lg:items-center justify-between lg:pt-40 pt-32 py-12 px-6"
+      className="flex lg:flex-row flex-col lg:items-center justify-between lg:pt-36 pt-32 py-12 px-6"
       id="about"
     >
       <figcaption className="lg:w-6/12 w-full">
