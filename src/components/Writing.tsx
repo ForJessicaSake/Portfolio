@@ -8,7 +8,7 @@ const WritingExperience = () => {
   return (
     <section className="flex flex-col px-6 pb-6 cursor-pointer" id="experience">
       <section className="flex justify-start items-center lg:w-5/12 w-96 pb-10">
-      <h1 className="lg:text-2xl text-xl">
+      <h1 className="lg:text-2xl md:text-xl text-lg">
           <span className="text-primary">#</span>Writing Experience
         </h1>
         <figure className="pl-4">
