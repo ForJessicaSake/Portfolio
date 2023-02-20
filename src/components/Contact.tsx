@@ -3,8 +3,17 @@ import email from "../assets/email.svg";
 import { FiTwitter } from "react-icons/fi";
 import Button from "../custom/Button";
 import { Link } from "react-router-dom";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  var params = {
+    name: 'John',
+    reply_email: 'john@example.com',
+    message: 'This is awesome!'
+    };
+    // emailjs.send( 'gmail', 'feedback', params );
+
   return (
     <section className="flex flex-col px-6 pb-10" id="contact">
       <section className="flex justify-around items-center lg:w-3/12 w-72">
