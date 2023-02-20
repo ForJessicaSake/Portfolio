@@ -15,10 +15,12 @@ Hey developers! I'm hyped to share my brand spanking new portfolio with you. Bui
 ### Roadmap 🔍
 Here are some of the links you should look out for to make navigation on the site easier for you.
 
-- Home
-- Works
-- About-me
-- Contact
+- about-me
+- skills
+- experience
+- projects
+- publications
+- contact
 
 ### Product
 Product display: [Production Website Link](https://portfolio-forjessicasake.vercel.app/)
