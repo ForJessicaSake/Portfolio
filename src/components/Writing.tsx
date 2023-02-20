@@ -7,12 +7,12 @@ import ExperienceCard from "../elements/ExperienceCard";
 const WritingExperience = () => {
   return (
     <section className="flex flex-col px-6 pb-6 cursor-pointer" id="experience">
-      <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
-        <h1 className="text-2xl">
+      <section className="flex justify-start items-center lg:w-5/12 w-96 pb-10">
+      <h1 className="lg:text-2xl text-xl">
           <span className="text-primary">#</span>Writing Experience
         </h1>
         <figure className="pl-4">
-          <img src={stroke} alt="line" className="w-28" />
+          <img src={stroke} alt="line" className="lg:w-28 w-16" />
         </figure>
       </section>
         
