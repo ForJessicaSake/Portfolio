@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 import stroke from "../assets/stroke.svg";
 import email from "../assets/email.svg";
 import { FiTwitter } from "react-icons/fi";
@@ -10,7 +13,6 @@ import { useRef } from "react";
 
 const Contact = () => {
   const [toMail, setToMail] = useAtom(mail);
-
   const submit = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -32,6 +34,10 @@ const Contact = () => {
     }
   };
 
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <section className="flex flex-col px-6 pb-10" id="contact">
       <section className="flex justify-around items-center lg:w-3/12 w-72">
@@ -44,22 +50,14 @@ const Contact = () => {
       </section>
       <section className="flex lg:flex-row flex-col justify-between text-sm">
         <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-justify mt-4">
-          <p className="leading-6">
+          <p>
             I'm on the lookout for some new opportunities to flex my skills and
             expertise. If you're in need of a go-getter who's not afraid to roll
             up their sleeves and tackle any challenge, feel free to shoot me a
             message. I'm game!
           </p>
         </div>
-        <div
-          className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4"
-          data-aos="fade-left"
-          data-aos-offset="50"
-          data-aos-delay="20"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-once="true"
-        >
+        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4">
           <h3 className="text-white">Message me here</h3>
           <figure className="flex w-64 justify-between items-center">
             <img src={email} alt="email" className="h-5 w-5" />

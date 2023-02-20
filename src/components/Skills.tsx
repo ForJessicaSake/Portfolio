@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 import dots from "../assets/Dots.svg";
 import rectangle from "../assets/Rectangle.svg";
 import square from "../assets/square.svg";
@@ -5,6 +8,9 @@ import block from "../assets/block.svg";
 import stroke from "../assets/stroke.svg";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  })
   return (
     <section className="flex flex-col px-6 py-20 cursor-pointer" id="skills">
       <section className="flex justify-around items-center lg:w-3/12 w-72 pb-10">

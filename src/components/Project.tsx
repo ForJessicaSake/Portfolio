@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 import stroke from "../assets/stroke.svg";
 import Card from "../elements/Card";
 import dockett from "../assets/dockett.png";
@@ -6,6 +9,9 @@ import sunnyside from "../assets/sunnyside.png";
 import { Link } from "react-router-dom";
 
 const Project = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <section className="flex flex-col px-6 pb-20" id="project">
       <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
