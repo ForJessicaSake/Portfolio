@@ -2,6 +2,7 @@ import stroke from "../assets/stroke.svg";
 import email from "../assets/email.svg";
 import { FiTwitter } from "react-icons/fi";
 import Button from "../custom/Button";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -30,9 +31,11 @@ const Contact = () => {
             <img src={email} alt="email" className ="h-5 w-5"/>
             jessicajoseph2019@yahoo.com
           </figure>
-          <figure className="flex w-36 justify-between items-center">
-            <FiTwitter className="h-5 w-5"/>
+          <figure >
+          <Link to="https://twitter.com/forJessica_sake" className="flex w-36 justify-between items-center">
+            <FiTwitter className="h-5 w-5" />
             forJessicasake
+          </Link> 
           </figure>
         </div>
       </section>
