@@ -1,6 +1,6 @@
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import Guestposts from '../components/Guestposts'
+import Guestposts from '../components/Experience'
 import Navbar from '../components/Navbar'
 import Publications from '../components/Publications'
 import Skills from '../components/Skills'

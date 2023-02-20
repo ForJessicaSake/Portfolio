@@ -16,7 +16,7 @@ const Contact = () => {
       </section>
       <section className="flex lg:flex-row flex-col justify-between text-sm">
         <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-justify mt-4">
-          <p>
+          <p className="leading-6">
             I'm currently on the lookout for exciting opportunities, whether
             it's full-time, contract, or freelance work. If you think I could be
             a good fit for a job you have in mind, please don't hesitate to

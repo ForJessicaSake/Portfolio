@@ -24,19 +24,20 @@ const Navbar: React.FC = () => {
       <ul onClick={navClose} className={`${nav ? "block": "hidden"} px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0  top-20 py-8 bg-background w-full h-full flex flex-col  justify-between`}>
         <li>
           <Link to ="/" className="active:text-white">
-            <span className="text-primary">#</span>home
-          </Link>
-        </li>
-        <li>
-          <a className="active:text-white" href="#about">
             <span className="text-primary">#</span>about-me
-          </a>
+          </Link>
         </li>
         <li>
           <a className="active:text-white" href="#skills">
             <span className="text-primary">#</span>skills
           </a>
         </li>
+        <li>
+          <a className="active:text-white" href="#experience">
+            <span className="text-primary">#</span>experience
+          </a>
+        </li>
+
         <li>
           <a className="active:text-white" href="#project">
             <span className="text-primary">#</span>project
