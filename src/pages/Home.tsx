@@ -11,7 +11,7 @@ import Experience from '../components/Experience'
 
 const Home:React.FC = () => {
   return (
-    <main className='bg-background font-font text-secondary px-2 overflow-x-hidden scroll-smooth'>
+    <main className='bg-background font-font text-secondary px-2 overflow-x-hidden'>
     <Navbar/>
     <Header/>
     <Box/>
