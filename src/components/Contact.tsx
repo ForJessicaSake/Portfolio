@@ -28,9 +28,9 @@ const Contact = () => {
         submit.current,
         "VzAh-kzQKj2SeXc8v"
       );
-      alert("sent");
+      alert("mail sent successfully");
     } else {
-      alert("invalid details");
+      alert("invalid details, please try again.");
     }
   };
 
