@@ -7,6 +7,7 @@ const page = atom<number>(1)
 const mail = atom({
     name: "",
     email: "",
+    title: "",
     message: "",
   });
   
