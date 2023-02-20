@@ -61,7 +61,7 @@ const Contact = () => {
           <h3 className="text-white">Message me here</h3>
           <figure className="flex w-64 justify-between items-center">
             <img src={email} alt="email" className="h-5 w-5" />
-            jessicajoseph2019@yahoo.com
+            jessicajoseph1807@gmail.com
           </figure>
           <figure>
             <Link
