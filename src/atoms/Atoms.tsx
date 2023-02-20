@@ -4,6 +4,13 @@ const navigation = atom<boolean>(false)
 const post = atom<[]>([])
 const isLoading = atom<boolean>(true)
 const page = atom<number>(1)
+const mail = atom({
+    name: "",
+    email: "",
+    message: "",
+  });
+  
 
 
-export {navigation, post, isLoading,page}
+
+export {navigation, post, isLoading, page, mail}
