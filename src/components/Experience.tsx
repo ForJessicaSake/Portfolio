@@ -30,7 +30,7 @@ const Experience = () => {
               experience="I am currently a guest writer at Turing, where I am writing comprehensive articles and gaining hands-on experience in research, as well as improving my technical writing skills."
               cover=""
               snug=""
-              skill="Technical Writing"
+              skill="Technical Writing, Web Development"
             />
           </div>
           <div className="pb-8">
@@ -42,7 +42,7 @@ const Experience = () => {
               experience="I am currently crafting high-quality and informative articles that not only educate, but also engage and captivate our target audience. My extensive research, writing, and editing experience has enabled me to effectively communicate complex technical concepts in a simplified and easily understandable manner."
               cover=""
               snug=""
-              skill="Technical Writing"
+              skill="Technical Writing, Web Development"
             />
           </div>
           <div className="pb-8">
@@ -54,7 +54,7 @@ const Experience = () => {
               experience="I created engaging, informative, and high-quality technical articles. My extensive experience in research, writing, and editing has allowed me to effectively communicate complex technical information to our target audience in a simplified manner."
               cover=""
               snug=""
-              skill="Technical Writing"
+              skill="Technical Writing,  Web Development"
             />
           </div>
           <div className="pb-8">
@@ -66,7 +66,7 @@ const Experience = () => {
               experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
               cover=""
               snug=""
-              skill="Web development, Technical Writing"
+              skill="Web Development, Technical Writing"
             />
           </div>
           <div className="pb-8">
@@ -78,7 +78,7 @@ const Experience = () => {
               experience="As a Frontend Slack Channel Manager, I  organize and led pair programming exercises for beginners and intermediates, providing valuable opportunities for skill development and growth using modern technologies like Slack, GitHub and Google workspaces. I closely monitor and track feedback and reviews from channel members, reporting any insights to the Community Manager."
               cover=""
               snug=""
-              skill="Web development, Community Development"
+              skill="Web Development, Community Development"
             />
           </div>
           
