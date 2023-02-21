@@ -82,7 +82,7 @@ const Publications = () => {
             {data?.map((articles: ArticleType) => (
               <article
                 key={articles.id}
-                className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg lg:hover:scale-90"
+                className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
               >
                 <figure className="border w-80">
                   <Link
