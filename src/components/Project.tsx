@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
 import stroke from "../assets/stroke.svg";
 import Card from "../elements/Card";
 import dockett from "../assets/dockett.png";
 import Lamoore from "../assets/Lamoore.png";
 import sunnyside from "../assets/sunnyside.png";
-import { Link } from "react-router-dom";
 
-const Project = () => {
+const Project: React.FC = () => {
   useEffect(() => {
     AOS.init();
   });
@@ -23,12 +22,12 @@ const Project = () => {
         </figure>
       </section>
       <section className="grid grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
-          <Card
-            image={dockett}
-            title="Sticky Note Web Application"
-            about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Our app is packed with powerful features and intuitive design, making it easy for anyone to use."
-            link="https://dockett.vercel.app/"
-          />
+        <Card
+          image={dockett}
+          title="Sticky Note Web Application"
+          about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Our app is packed with powerful features and intuitive design, making it easy for anyone to use."
+          link="https://dockett.vercel.app/"
+        />
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"

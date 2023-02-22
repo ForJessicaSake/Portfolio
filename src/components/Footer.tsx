@@ -4,7 +4,7 @@ import GitHub from "../assets/Github.svg";
 import { FiLinkedin, FiTwitter } from "react-icons/fi";
 import { SiHashnode } from "react-icons/si";
 import { Link } from "react-router-dom";
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="flex lg:flex-row flex-col justify-between lg:items-center w-full lg:h-48 h-full cursor-pointer px-6">
       <nav className="text-sm">

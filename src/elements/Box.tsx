@@ -1,5 +1,5 @@
 import quotes from "../assets/quotes.svg";
-const Box = () => {
+const Box:React.FC = () => {
   return (
     <hgroup>
       <section className="flex justify-center relative">

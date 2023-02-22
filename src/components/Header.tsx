@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Button from "../custom/Button";
 import block from "../assets/block.svg";
@@ -10,7 +10,7 @@ import GitHub from "../assets/Github.svg";
 import { FiLinkedin, FiTwitter } from "react-icons/fi";
 import { SiHashnode } from "react-icons/si";
 
-const Header = () => {
+const Header: React.FC = () => {
   useEffect(() => {
     AOS.init();
   });

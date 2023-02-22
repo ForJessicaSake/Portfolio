@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
 import stroke from "../assets/stroke.svg";
 import email from "../assets/email.svg";
 import { FiTwitter } from "react-icons/fi";
@@ -11,7 +11,7 @@ import { useAtom } from "jotai";
 import { mail } from "../atoms/Atoms";
 import { useRef } from "react";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   const [toMail, setToMail] = useAtom(mail);
   const submit = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

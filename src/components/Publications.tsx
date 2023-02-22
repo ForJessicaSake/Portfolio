@@ -1,9 +1,7 @@
-import { useCallback } from "react";
 import { page } from "../atoms/Atoms";
 import { useQuery } from "react-query";
 import { useAtom } from "jotai";
 import stroke from "../assets/stroke.svg";
-import Button from "../custom/Button";
 import { Link } from "react-router-dom";
 
 type ArticleType = {
@@ -14,7 +12,7 @@ type ArticleType = {
   brief: string;
 };
 
-const Publications = () => {
+const Publications:React.FC = () => {
   const variables = { page: 0 };
   const query = `
     query GetUserArticles($page: Int!) {
@@ -49,14 +47,11 @@ const Publications = () => {
 
     return post; // Ensure to return the data from the function
   };
-  const [pages, setPages] = useAtom(page);
+  const [pages] = useAtom(page);
   const { data, status } = useQuery<ArticleType[]>(["page", pages], fetchData, {
     keepPreviousData: true,
   });
 
-  const handlePage = () => {
-    setPages(pages + 1);
-  };
 
   return (
     <section className="flex flex-col px-6 pb-20" id="publications">
