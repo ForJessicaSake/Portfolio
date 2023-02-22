@@ -19,7 +19,7 @@ const Header: React.FC = () => {
       className="flex lg:flex-row flex-col lg:items-center justify-between lg:pt-36 pt-32 py-12 px-6"
       id="about"
     >
-      <figcaption className="lg:w-6/12 w-full">
+      <figcaption className="lg:w-6/12 w-full md:w-11/12">
         <h1
           data-aos="fade-right"
           data-aos-offset="200"
@@ -74,7 +74,7 @@ const Header: React.FC = () => {
         <img
           src={dots}
           alt="dots"
-          className="relative lg:top-20 lg:left-4 md:right-10 right-0 top-28 h-14 w-14"
+          className="relative lg:top-20 lg:left-4 right-10 md:hidden top-28 h-14 w-14"
         />
       </figure>
     </header>

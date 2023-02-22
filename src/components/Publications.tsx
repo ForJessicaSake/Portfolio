@@ -73,7 +73,7 @@ const Publications:React.FC = () => {
           <p className="text-sm font-light text-center">...</p>
         )}
         {status === "success" && (
-          <div className="grid grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
+          <div className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
             {data?.map((articles: ArticleType) => (
               <article
                 key={articles.id}

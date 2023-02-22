@@ -21,7 +21,7 @@ const Project: React.FC = () => {
           <img src={stroke} alt="line" className="w-36" />
         </figure>
       </section>
-      <section className="grid grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
+      <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
         <Card
           image={dockett}
           title="Sticky Note Web Application"
