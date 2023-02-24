@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             </figcaption>
           </figure>
         </section>
-        <p className="py-3">jessicajoseph2019@yahoo.com</p>
+        <p className="py-3">jessicajoseph1807@gmail.com</p>
         <p>Frontend Engineer and Technical Writer</p>
       </nav>
 
