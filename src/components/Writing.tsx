@@ -42,7 +42,7 @@ const WritingExperience: React.FC = () => {
             image={Pieces}
             title="Content Writer"
             company="Pieces:Freelance"
-            date="October 2022 - February 2023"
+            date="October 2022 - March 2023"
             experience="As a content writer for Pieces, I had a blast creating technical articles that were both entertaining and informative. I made sure each piece spoke directly to our target audience by focusing on their specific needs and interests."
             skill="Technical Writing,  Web Development"
           />
