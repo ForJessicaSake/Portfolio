@@ -38,7 +38,7 @@ const Project: React.FC = () => {
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
-          about="A responsive and user-friendly site built with the latest frontend technologies such as TypeScript, React, Jotai, and TailwindCSS. This project showcases my skills in using TypeScript for typechecking, Jotai for managing client states and tailwindCSS for the design."
+          about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
           link="https://sunnyside-agencies.vercel.app/"
         />
 
