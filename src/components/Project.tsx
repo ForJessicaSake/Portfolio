@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import stroke from "../assets/stroke.svg";
 import Card from "../elements/Card";
 import dockett from "../assets/dockett.png";
-import Lamoore from "../assets/Lamoore.png";
+import bookmark from "../assets/bookmark.png";
 import sunnyside from "../assets/sunnyside.png";
 
 const Project: React.FC = () => {
@@ -22,6 +22,13 @@ const Project: React.FC = () => {
         </figure>
       </section>
       <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
+       
+      <Card
+          image={bookmark}
+          title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
+          about="I recently delved into the world of TypeScript. I am putting my skills to the test by building a challenging frontend mentor project using TypeScript in React. I was able to typecheck props, hooks, and reusable components in my very first attempt."
+          link="https://bookmark-landing-page-self.vercel.app/"
+        />
         <Card
           image={dockett}
           title="Sticky Note Web Application"
@@ -34,12 +41,7 @@ const Project: React.FC = () => {
           about="A responsive and user-friendly site built with the latest frontend technologies such as TypeScript, React, Jotai, and TailwindCSS. This project showcases my skills in using TypeScript for typechecking, Jotai for managing client states and tailwindCSS for the design."
           link="https://sunnyside-agencies.vercel.app/"
         />
-        <Card
-          image={Lamoore}
-          title="Lamoore: Ecommerce clothing website"
-          about="Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
-          link="https://lamoore.vercel.app/"
-        />
+
       </section>
     </section>
   );
