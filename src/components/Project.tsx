@@ -26,7 +26,7 @@ const Project: React.FC = () => {
       <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
-          about="I recently delved into the world of TypeScript. I am putting my skills to the test by building a challenging frontend mentor project using TypeScript in React. I was able to typecheck props, hooks, and reusable components in my very first attempt."
+          about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this using Tailwind, TypeScript and React. I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
           link="https://bookmark-landing-page-self.vercel.app/"
         />
         <Card
