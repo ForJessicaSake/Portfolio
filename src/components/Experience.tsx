@@ -19,11 +19,15 @@ const Experience: React.FC = () => {
         <div className="pb-8">
           <ExperienceCard
             image={EHC}
-            title="Frontend Channel Manager"
+            title="Engineering Lead"
             company="EmpowerHerCommunity:Full time"
             date="May 2022 - Present"
-            experience="As a Frontend Slack Channel Manager, I  organize and lead pair programming exercises for beginners and intermediates, providing valuable opportunities for skill development and growth using modern technologies like Slack, GitHub and Google workspaces. I closely monitor and track feedback and reviews from channel members, reporting any insights to the Community Manager."
-            skill="Web Development, Community Development"
+            experience="As the engineering lead,I am responsible for managing the engineering team and
+            maintaining the community website. I frequently organize pair programming exercises for
+            beginners and intermediates in the community frontend slack channel, providing
+            valuable opportunities for skill development and growth using modern technologies like
+            Slack, GitHub and Google workspaces"
+            skill= "Web development, Community Development"
           />
         </div>
         <div className="pb-8">
