@@ -21,7 +21,7 @@ const Experience: React.FC = () => {
             image={EHC}
             title="Engineering Lead"
             company="EmpowerHerCommunity:Full time"
-            date="May 2022 - Present"
+            date="February 2023 - Present"
             experience="As the engineering lead,I am responsible for managing the engineering team and
             maintaining the community website. I frequently organize pair programming exercises for
             beginners and intermediates in the community frontend slack channel, providing
