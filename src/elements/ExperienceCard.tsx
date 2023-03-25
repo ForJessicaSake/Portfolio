@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {BsArrowUpRight} from "react-icons/bs"
 
 type ExperienceType = {
   image?: any;
@@ -24,7 +24,7 @@ const ExperienceCard = ({
   skill,
 }: ExperienceType) => {
   return (
-    <section className="flex lg:flex-row flex-col justify-between text-justify">
+    <section className="flex leading-10 lg:flex-row flex-col justify-between text-justify">
       <figure className="lg:w-1/12 lg:pb-0 pb-3">
         <img src={image} alt="" className="lg:w-16 lg:h-16 w-20 h-20" />
       </figure>
@@ -33,7 +33,8 @@ const ExperienceCard = ({
         <h4 className="text-sm font-semibold py-2">{company}</h4>
         <h5 className="text-sm pb-3 animate-pulse">{date}</h5>
         <p className="leading-6 text-xs lg:w-11/12 ">{experience}</p>
-        <h4 className="text-sm pb-3 py-2">Skills: {skill}</h4>
+        <h4 className="text-sm font-semibol pt-4">Skills: {skill}</h4>
+        <a className="text-sm border-b py-4 flex items-center" target="blank" href={article}>Check out the published post <span className="w-10 pl-4"><BsArrowUpRight/></span></a>
       </section>
     </section>
   );

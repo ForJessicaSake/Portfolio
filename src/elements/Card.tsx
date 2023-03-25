@@ -10,8 +10,8 @@ type Project = {
 
 const Card = ({ image, title, about, link}: Project) => {
   return (
-  <section className="border w-80 cursor-pointer lg:hover:scale-105">
-     <Link to={link}>
+  <section className="border w-80 cursor-pointer lg:hover:scale-105 mb-6">
+     <Link to={link} target="blank">
       <img src={image} alt="" />
       </Link>
       <h2 className="font-bold text-justify flex items-center h-14 lg:text-sm text-sm border-t-0 border px-2 py-2">
