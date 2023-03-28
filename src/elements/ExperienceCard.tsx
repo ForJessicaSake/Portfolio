@@ -31,12 +31,12 @@ const ExperienceCard = ({
         <img src={image} alt="" className="lg:w-16 lg:h-16 w-20 h-20" />
       </figure>
       <section className="lg:w-11/12 ">
-        <h1 className="text-lg font-semibold">{title}</h1>
-        <h4 className="text-sm font-semibold py-2">{company}</h4>
-        <h5 className="text-sm pb-3 animate-pulse">{date}</h5>
-        <p className="leading-6 text-xs lg:w-11/12 ">{experience}</p>
-        <h4 className="text-sm font-semibol pt-4">Skills: {skill}</h4>
-       {article ? <a className="text-sm py-4 flex items-center" target="blank" href={article}>Article: {articleText}<span className="w-10 pl-2"><BsArrowUpRight/></span></a> : ""}
+        <h1 className="text-xl font-semibold">{title}</h1>
+        <h4 className="text-base font-semibold py-2">{company}</h4>
+        <h5 className="text-base pb-3 animate-pulse">{date}</h5>
+        <p className="leading-6 text-sm lg:w-11/12 ">{experience}</p>
+        <h4 className="text-base font-semibol pt-4">Skills: {skill}</h4>
+       {article ? <a className="text-sm py-4 flex items-center underline text-primary" target="blank" href={article}>Article: {articleText}<span className="w-10 pl-2"><BsArrowUpRight/></span></a> : ""}
       </section>
     </section>
   );

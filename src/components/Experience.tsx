@@ -20,7 +20,7 @@ const Experience: React.FC = () => {
           <ExperienceCard
             image={EHC}
             title="Engineering Lead"
-            company="EmpowerHerCommunity:Full time"
+            company="EmpowerHerCommunity: Full time"
             date="February 2023 - Present"
             experience="As the engineering lead,I am responsible for managing the engineering team and
             maintaining the community website. I frequently organize pair programming exercises for
@@ -34,7 +34,7 @@ const Experience: React.FC = () => {
           <ExperienceCard
             image={DevCareer}
             title="Frontend Engineer"
-            company="DevCareer:Internship"
+            company="DevCareer: Internship"
             date="September 2022 - December 2022"
             experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
             skill="Web Development, Technical Writing"
