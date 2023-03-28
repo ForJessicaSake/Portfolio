@@ -8,6 +8,7 @@ import bookmark from "../assets/bookmark.png";
 import sunnyside from "../assets/sunnyside.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png"
+import innovotio from "../assets/innovotio.png"
 
 
 const Project: React.FC = () => {
@@ -51,6 +52,12 @@ const Project: React.FC = () => {
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
           about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
           link="https://sunnyside-agencies.vercel.app/"
+        />
+          <Card
+          image={innovotio}
+          title="Innovotio: Build and ship scalable products with on-demand engineering teams"
+          about="Why would you chase random freelancers if you could have your own creative dream team today? Build and ship scalable products with on-demand engineering teams provided by Innovotio."
+          link="https://innovotio-website.vercel.app/"
         />
            <Card
           image={Lamoore}

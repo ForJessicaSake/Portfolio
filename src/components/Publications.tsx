@@ -54,10 +54,10 @@ const Publications:React.FC = () => {
 
 
   return (
-    <section className="flex flex-col px-6 pb-20" id="publications">
-      <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
+    <section className="flex flex-col px-6 pb-20" >
+      <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10" id="publications">
         <h1 className="lg:text-2xl text-xl">
-          <span className="text-primary ">#</span>Publications
+          <span className="text-primary">#</span>Publications
         </h1>
         <figure className="pl-4">
           <img src={stroke} alt="line" className="lg:w-20 w-32" />
