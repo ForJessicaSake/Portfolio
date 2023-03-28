@@ -26,6 +26,7 @@ const WritingExperience: React.FC = () => {
             experience="I am currently a guest writer at Turing, where I am writing comprehensive articles and gaining hands-on experience in research, as well as improving my technical writing skills."
             skill="Technical Writing, Web Development"
             article="https://www.turing.com/kb/how-to-create-slider-in-js"
+            articleText="How to Create a Slider in JavaScript?"
           />
         </div>
         <div className="pb-8">
@@ -46,6 +47,7 @@ const WritingExperience: React.FC = () => {
             date="October 2022 - March 2023"
             experience="As a content writer for Pieces, I had a blast creating technical articles that were both entertaining and informative. I made sure each piece spoke directly to our target audience by focusing on their specific needs and interests."
             skill="Technical Writing,  Web Development"
+            articleText="Everything You Need to Know to Choose a Modern JavaScript Framework"
             article="https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework"
           />
         </div>

@@ -10,6 +10,7 @@ type ExperienceType = {
   snug?: any;
   article?: string;
   skill: string;
+  articleText?:string
 };
 
 const ExperienceCard = ({
@@ -22,6 +23,7 @@ const ExperienceCard = ({
   snug,
   article,
   skill,
+  articleText
 }: ExperienceType) => {
   return (
     <section className="flex leading-10 lg:flex-row flex-col justify-between text-justify">
@@ -34,7 +36,7 @@ const ExperienceCard = ({
         <h5 className="text-sm pb-3 animate-pulse">{date}</h5>
         <p className="leading-6 text-xs lg:w-11/12 ">{experience}</p>
         <h4 className="text-sm font-semibol pt-4">Skills: {skill}</h4>
-        <a className="text-sm border-b py-4 flex items-center" target="blank" href={article}>Check out the published post <span className="w-10 pl-4"><BsArrowUpRight/></span></a>
+       {article ? <a className="text-sm py-4 flex items-center" target="blank" href={article}>Article: {articleText}<span className="w-10 pl-2"><BsArrowUpRight/></span></a> : ""}
       </section>
     </section>
   );

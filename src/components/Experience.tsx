@@ -10,7 +10,7 @@ const Experience: React.FC = () => {
         <h1 className="lg:text-2xl md:text-xl text-lg">
           <span className="text-primary">#</span>Frontend Experience
         </h1>
-        <figure className="pl-4">
+        <figure className="pl-4" >
           <img src={stroke} alt="line" className="lg:w-28 w-16" />
         </figure>
       </section>
