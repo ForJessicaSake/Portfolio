@@ -92,7 +92,7 @@ const Publications:React.FC = () => {
                 </figure>
 
                 <figcaption className="w-80">
-                  <h2 className="font-bold h-14 items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
+                  <h2 className="font-bold h-20 flex items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
                     {articles.title}
                   </h2>
                   <p className="h-32 text-xs border border-t-0 px-2 py-1 text-justify">
