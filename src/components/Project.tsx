@@ -55,7 +55,7 @@ const Project: React.FC = () => {
         />
           <Card
           image={innovotio}
-          title="Innovotio: Build and ship scalable products with on-demand engineering teams"
+          title="In progress... Innovotio: Build and ship scalable products with on-demand engineering teams"
           about="Why would you chase random freelancers if you could have your own creative dream team today? Build and ship scalable products with on-demand engineering teams provided by Innovotio."
           link="https://innovotio-website.vercel.app/"
         />
