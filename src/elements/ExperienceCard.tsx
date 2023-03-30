@@ -1,4 +1,3 @@
-import {BsArrowUpRight} from "react-icons/bs"
 
 type ExperienceType = {
   image?: any;
