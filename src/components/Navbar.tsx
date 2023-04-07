@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     setNav(!nav);
   };
   return (
-    <nav className="flex justify-between items-center lg:h-20 h-20 border-20 bg-background cursor-pointer fixed w-full z-20">
+    <nav className="flex justify-between items-center lg:h-20 h-20 border-20 bg-background cursor-pointer fixed w-full 2xl:mx-auto 2xl:container z-20">
       <section className="flex text-white justify-between w-full items-center px-6">
         <figure className="flex items-center lg:w-24 w-28 justify-between">
           <img src={Logo} alt="Logo" className="w-6 h-6 lg:w-5 lg:h-5" />

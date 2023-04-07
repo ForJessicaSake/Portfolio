@@ -5,7 +5,7 @@ import { QueryClientProvider, QueryClient } from "react-query";
 function App() {
   const queryClient = new QueryClient();
   return (
-    <>
+    <div className=" bg-background">
     <QueryClientProvider client={queryClient}>
       <Router>
         <Routes>
@@ -13,7 +13,7 @@ function App() {
         </Routes>
       </Router>
       </QueryClientProvider>
-    </>
+    </div>
   );
 }
 
