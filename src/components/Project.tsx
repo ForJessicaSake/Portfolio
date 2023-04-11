@@ -30,7 +30,7 @@ const Project: React.FC = () => {
       <Card
           image={Empower}
           title="Empower Her Community"
-          about=" In progress... As the engineering lead, I was responsible for developing a redesign of our community website using frontend technologies such as NextJs, Markdown, and Tailwind. Although integrating an admin dashboard was initially daunting, I thoroughly enjoyed working on the project."
+          about="As the engineering lead, I was responsible for developing a redesign of our community website using frontend technologies such as NextJs, Markdown, and Tailwind. Although integrating an admin dashboard was initially daunting, I thoroughly enjoyed working on the project."
           link="https://empower-her-community.vercel.app/"
         />
 
