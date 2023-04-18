@@ -30,7 +30,7 @@ const Project: React.FC = () => {
       <Card
           image={Empower}
           title="Empower Her Community"
-          about="As the engineering lead, I was responsible for developing a redesign of our community website using frontend technologies such as NextJs, Markdown, and Tailwind. Although integrating an admin dashboard was initially daunting, I thoroughly enjoyed working on the project."
+          about="As the engineering lead, my team and I developed a redesign of our community website using frontend technologies such as NextJs, Markdown, and Tailwind. Although integrating an admin dashboard was initially daunting, I thoroughly enjoyed working on the project with the team."
           link="https://empower-her-community.vercel.app/"
         />
 
@@ -53,12 +53,12 @@ const Project: React.FC = () => {
           about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
           link="https://sunnyside-agencies.vercel.app/"
         />
-          {/* <Card
+          <Card
           image={innovotio}
-          title="In progress... Innovotio: Build and ship scalable products with on-demand engineering teams"
-          about="Why would you chase random freelancers if you could have your own creative dream team today? Build and ship scalable products with on-demand engineering teams provided by Innovotio."
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
           link="https://innovotio-website.vercel.app/"
-        /> */}
+        />
            <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
