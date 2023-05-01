@@ -23,7 +23,7 @@ const Skills: React.FC = () => {
       </section>
 
       <section className="px-5 flex flex-col-reverse lg:flex-row justify-between">
-        <div className="w-full lg:w-3/12 lg:pb-0 pb-6 flex flex-col pr-2">
+        <div className="max-w-sm lg:w-3/12 lg:pb-0 pb-6 flex flex-col pr-2">
           <figure className="flex justify-between pr-10 relative">
             <img src={dots} alt="dots" className="lg:w-11 lg:h-11 w-16 h-16" />
             <img
