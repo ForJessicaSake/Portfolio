@@ -8,7 +8,7 @@ import bookmark from "../assets/bookmark.png";
 import sunnyside from "../assets/sunnyside.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png"
-import innovotio from "../assets/innovotio.png"
+import inno from "../assets/inno.png"
 
 
 const Project: React.FC = () => {
@@ -54,7 +54,7 @@ const Project: React.FC = () => {
           link="https://sunnyside-agencies.vercel.app/"
         />
           <Card
-          image={innovotio}
+          image={inno}
           title="Innovotio"
           about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
           link="https://innovotio-website.vercel.app/"
