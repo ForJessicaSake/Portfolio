@@ -22,12 +22,11 @@ const Experience: React.FC = () => {
             title="Engineering Lead"
             company="EmpowerHerCommunity: Full time"
             date="February 2023 - Present"
-            experience="As the engineering lead,I am responsible for managing the engineering team and
-            maintaining the community website. I frequently organize pair programming exercises for
-            beginners and intermediates in the community frontend slack channel, providing
-            valuable opportunities for skill development and growth using modern technologies like
-            Slack, GitHub and Google workspaces"
-            skill= "Web development, Community Development"
+            // experience="As the engineering lead,I am responsible for managing the engineering team and
+            // maintaining the community website. I frequently organize pair programming exercises for
+            // beginners and intermediates in the community frontend slack channel, providing
+            // valuable opportunities for skill development and growth using modern technologies like
+            // Slack, GitHub and Google workspaces"
           />
         </div>
         <div className="pb-8">
@@ -36,8 +35,7 @@ const Experience: React.FC = () => {
             title="Frontend Engineer"
             company="DevCareer: Internship"
             date="September 2022 - December 2022"
-            experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
-            skill="Web Development, Technical Writing"
+            // experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
           />
         </div>
       </section>

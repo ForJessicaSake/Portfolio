@@ -4,11 +4,10 @@ type ExperienceType = {
   title: string;
   company: string;
   date: string;
-  experience: string;
+  experience?: string;
   cover?: any;
   snug?: any;
   article?: string;
-  skill: string;
   articleText?:string
 };
 
@@ -21,7 +20,6 @@ const ExperienceCard = ({
   cover,
   snug,
   article,
-  skill,
   articleText
 }: ExperienceType) => {
   return (
@@ -32,10 +30,9 @@ const ExperienceCard = ({
       <section className="lg:w-11/12 ">
         <h1 className="text-xl font-semibold">{title}</h1>
         <h4 className="text-base font-semibold py-2">{company}</h4>
-        <h5 className="text-base pb-3 animate-pulse">{date}</h5>
+        <h5 className="text-base pb-3 ">{date}</h5>
         <p className="leading-6 text-sm lg:w-11/12 ">{experience}</p>
-        <h4 className="text-base font-semibol pt-4">Skills: {skill}</h4>
-       {article ? <a className="text-base py-4 flex items-center underline text-secondary" target="blank" href={article}>Article: {articleText}</a> : ""}
+       {article ? <a className="text-base flex items-center animate-pulse" target="blank" href={article}>Article: {articleText}</a> : ""}
       </section>
     </section>
   );

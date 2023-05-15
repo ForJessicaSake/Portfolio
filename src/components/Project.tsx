@@ -30,14 +30,14 @@ const Project: React.FC = () => {
       <Card
           image={Empower}
           title="Empower Her Community"
-          about="As the engineering lead, my team and I developed a redesign of our community website using frontend technologies such as NextJs, Markdown, and Tailwind. Although integrating an admin dashboard was initially daunting, I thoroughly enjoyed working on the project with the team."
+          about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed working on the project with the engineering team."
           link="https://empower-her-community.vercel.app/"
         />
 
         <Card
           image={dockett}
           title="Sticky Note Web Application"
-          about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Our app is packed with powerful features and intuitive design, making it easy for anyone to use."
+          about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
           link="https://dockett.vercel.app/"
         />
         
