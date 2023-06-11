@@ -9,7 +9,7 @@ type ArticleType = {
   coverImage: any;
   slug: any;
   title: string;
-  brief: string;
+  brief?: string;
 };
 
 const Publications:React.FC = () => {

@@ -26,7 +26,7 @@ const WritingExperience: React.FC = () => {
             date="January 2023 - Present"
             // experience="As a technical writer for Smashing, I had a fantastic time collaborating with their team of editors. I learned a lot about conducting thorough research and simplifying complex details."
             articleText="The Safest Way To Hide Your API Keys When Using React"
-            article="https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/"
+            // article="https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/"
           />
         </div>
         <div className="pb-8">
@@ -36,8 +36,8 @@ const WritingExperience: React.FC = () => {
             company="Turing: Freelance"
             date="January 2023 - Present"
             // experience="I am currently a guest writer at Turing, where I am writing comprehensive articles and gaining hands-on experience in research, as well as improving my technical writing skills."
-            article="https://www.turing.com/kb/how-to-create-slider-in-js"
-            articleText="How to Create a Slider in JavaScript?"
+            // article="https://www.turing.com/kb/how-to-create-slider-in-js"
+            // articleText="How to Create a Slider in JavaScript?"
           />
         </div>
         <div className="pb-8">
@@ -48,7 +48,7 @@ const WritingExperience: React.FC = () => {
             date="October 2022 - March 2023"
             // experience="As a content writer for Pieces, I had a blast creating technical articles that were both entertaining and informative. I made sure each piece spoke directly to our target audience by focusing on their specific needs and interests."
             articleText="Everything You Need to Know to Choose a Modern JavaScript Framework"
-            article="https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework"
+            // article="https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework"
           />
         </div>
         <div className="pb-8">

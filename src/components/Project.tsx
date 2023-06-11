@@ -41,6 +41,12 @@ const Project: React.FC = () => {
           link="https://dockett.vercel.app/"
         />
         
+        <Card
+          image={inno}
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
+          link="https://innovotio-website.vercel.app/"
+        />
       <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
@@ -53,12 +59,7 @@ const Project: React.FC = () => {
           about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
           link="https://sunnyside-agencies.vercel.app/"
         />
-          <Card
-          image={inno}
-          title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
-          link="https://innovotio-website.vercel.app/"
-        />
+     
            <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
