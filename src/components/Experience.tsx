@@ -23,7 +23,6 @@ const Experience: React.FC = () => {
           title="Frontend Developer"
           company="Brimble: Contract"
           date="April 2023 - Present"
-          // experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
         />
         <div className="py-8">
           <ExperienceCard
@@ -31,7 +30,6 @@ const Experience: React.FC = () => {
             title="Frontend Developer"
             company="Innovotio: Contract"
             date="March 2023 - present"
-            // experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
           />
         </div>
 
@@ -40,7 +38,6 @@ const Experience: React.FC = () => {
           title="Frontend Engineer"
           company="DevCareer: Internship"
           date="September 2022 - December 2022"
-          // experience="During the course of my internship, I developed optimized, responsive websites and created technical documents, guides, and tutorials on various programming languages and frameworks."
         />
 
         <div className="py-8">
@@ -49,11 +46,6 @@ const Experience: React.FC = () => {
             title="Engineering Lead"
             company="EmpowerHerCommunity: Full time"
             date="February 2023 - Present"
-            // experience="As the engineering lead,I am responsible for managing the engineering team and
-            // maintaining the community website. I frequently organize pair programming exercises for
-            // beginners and intermediates in the community frontend slack channel, providing
-            // valuable opportunities for skill development and growth using modern technologies like
-            // Slack, GitHub and Google workspaces"
           />
         </div>
       </section>
