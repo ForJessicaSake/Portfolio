@@ -31,7 +31,7 @@ const WritingExperience: React.FC = () => {
             image={Turing}
             title="Guest Writer"
             company="Turing: Freelance"
-            date="January 2023 - June 2023"
+            date="January 2023 - May 2023"
            
           />
         </div>
