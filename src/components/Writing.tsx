@@ -23,7 +23,7 @@ const WritingExperience: React.FC = () => {
             image={ Smashing}
             title="Technical Writer"
             company="Smashing: Freelance"
-            date="January 2023 - Present"
+            date="January 2023 - May 2023"
           />
         </div>
         <div className="pb-8">
@@ -31,7 +31,7 @@ const WritingExperience: React.FC = () => {
             image={Turing}
             title="Guest Writer"
             company="Turing: Freelance"
-            date="January 2023 - Present"
+            date="January 2023 - June 2023"
            
           />
         </div>
@@ -48,7 +48,7 @@ const WritingExperience: React.FC = () => {
             image={OpenReplay}
             title="Technical Writer"
             company="Open Replay: Freelance"
-            date="December 2022 - March 2023"
+            date="December 2022 - Present"
           />
         </div>
       </section>
