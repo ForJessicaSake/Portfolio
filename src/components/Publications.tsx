@@ -43,7 +43,6 @@ const Publications:React.FC = () => {
 
     const result = await data.json();
     const post = result.data.user.publication.posts;
-    console.log(post);
 
     return post; // Ensure to return the data from the function
   };
