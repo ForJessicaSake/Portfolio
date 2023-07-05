@@ -9,6 +9,7 @@ import sunnyside from "../assets/sunnyside.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
+import skdll from "../assets/Skdall.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
@@ -33,6 +34,12 @@ const Project: React.FC = () => {
         />
 
         <Card
+          image={inno}
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
+          link="https://innovotio-website.vercel.app/"
+        />
+        <Card
           image={dockett}
           title="Sticky Note Web Application"
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
@@ -45,12 +52,12 @@ const Project: React.FC = () => {
           link="https://bookmark-landing-page-self.vercel.app/"
         />
 
-        <Card
-          image={inno}
-          title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
-          link="https://innovotio-website.vercel.app/"
-        />
+        {/* <Card
+          image={skdll}
+          title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
+          about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
+          link="https://sunnyside-agencies.vercel.app/"
+        /> */}
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
