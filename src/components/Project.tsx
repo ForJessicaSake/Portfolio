@@ -9,7 +9,7 @@ import sunnyside from "../assets/sunnyside.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
-import skdll from "../assets/Skdall.png";
+import crypto from "../assets/art.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
@@ -32,12 +32,11 @@ const Project: React.FC = () => {
           about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed working on the project with the engineering team."
           link="https://empower-her-community.vercel.app/"
         />
-
         <Card
-          image={inno}
-          title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
-          link="https://innovotio-website.vercel.app/"
+          image={crypto}
+          title="Crypto Art: A Landing Page"
+          about="Digital marketplace landing page for crypto collectibles and NFTs. Buy, sell, and discover exclusive digital assets today. Developed using Next.js, AOS animation and TailwindCSS"
+          link="https://crypto-art-teal.vercel.app/"
         />
         <Card
           image={dockett}
@@ -45,19 +44,19 @@ const Project: React.FC = () => {
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
           link="https://dockett.vercel.app/"
         />
+
         <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
           about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this using Tailwind, TypeScript and React. I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
           link="https://bookmark-landing-page-self.vercel.app/"
         />
-
-        {/* <Card
-          image={skdll}
-          title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
-          about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
-          link="https://sunnyside-agencies.vercel.app/"
-        /> */}
+        <Card
+          image={inno}
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
+          link="https://innovotio-website.vercel.app/"
+        />
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
