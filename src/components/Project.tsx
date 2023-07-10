@@ -10,6 +10,7 @@ import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
 import crypto from "../assets/art.png";
+import goalTracker from "../assets/goalTracker.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
@@ -33,18 +34,18 @@ const Project: React.FC = () => {
           link="https://empower-her-community.vercel.app/"
         />
         <Card
-          image={crypto}
-          title="Crypto Art: A Landing Page"
-          about="Digital marketplace landing page for crypto collectibles and NFTs. Buy, sell, and discover exclusive digital assets today. Developed using Next.js, AOS animation and TailwindCSS"
-          link="https://crypto-art-teal.vercel.app/"
+          image={inno}
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, and Toastify."
+          link="https://innovotio-website.vercel.app/"
         />
+
         <Card
           image={dockett}
           title="Sticky Note Web Application"
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
           link="https://dockett.vercel.app/"
         />
-
         <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
@@ -52,11 +53,19 @@ const Project: React.FC = () => {
           link="https://bookmark-landing-page-self.vercel.app/"
         />
         <Card
-          image={inno}
-          title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, Firebase and Toastify."
-          link="https://innovotio-website.vercel.app/"
+          image={goalTracker}
+          title="A goal Tracker Application: In progress"
+          about="Everything you need to track your progress. Well everything you need if you can stay consistent and keep the momentum going. This is an ongoing project..."
+          link="https://progresspal.brimble.app/"
         />
+
+        <Card
+          image={Lamoore}
+          title="Lamoore: An Ecommerce Webiste"
+          about="Welcome to Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
+          link="https://lamoore.vercel.app/"
+        />
+
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
@@ -65,10 +74,10 @@ const Project: React.FC = () => {
         />
 
         <Card
-          image={Lamoore}
-          title="Lamoore: An Ecommerce Webiste"
-          about="Welcome to Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
-          link="https://lamoore.vercel.app/"
+          image={crypto}
+          title="Crypto Art: A Landing Page"
+          about="Digital marketplace landing page for crypto collectibles and NFTs. Buy, sell, and discover exclusive digital assets today. Developed using Next.js, AOS animation and TailwindCSS"
+          link="https://crypto-art-teal.vercel.app/"
         />
       </section>
     </section>
