@@ -33,7 +33,7 @@ const Project: React.FC = () => {
           about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed working on the project with the engineering team."
           link="https://empower-her-community.vercel.app/"
         />
-          <Card
+        <Card
           image={goalTracker}
           title="A goal Tracker Application: In progress"
           about="Everything you need to track your progress. Well everything you need if you can stay consistent and keep the momentum going. This project was developed using TypeScript, Firebase and TailwindCSS."
@@ -46,22 +46,19 @@ const Project: React.FC = () => {
           link="https://innovotio-website.vercel.app/"
         />
 
-        
-<Card
+        <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
           about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this using Tailwind, TypeScript and React. I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
           link="https://bookmark-landing-page-self.vercel.app/"
         />
 
-    
-{/* <Card
+        {/* <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
           about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
           link="https://sunnyside-agencies.vercel.app/"
         /> */}
-
 
         <Card
           image={dockett}
@@ -70,8 +67,6 @@ const Project: React.FC = () => {
           link="https://dockett.vercel.app/"
         />
 
-      
-
         <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
@@ -79,7 +74,6 @@ const Project: React.FC = () => {
           link="https://lamoore.vercel.app/"
         />
 
-      
         {/* <Card
           image={crypto}
           title="Crypto Art: A Landing Page"

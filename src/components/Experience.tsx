@@ -29,7 +29,7 @@ const Experience: React.FC = () => {
             image={Innovotio}
             title="Frontend Developer"
             company="Innovotio: Contract"
-            date="March 2023 - present"
+            date="May 2023 - present"
           />
         </div>
 
