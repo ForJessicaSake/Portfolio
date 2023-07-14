@@ -30,7 +30,7 @@ const Header: React.FC = () => {
           className="lg:text-3xl text-2xl font-semibold"
         >
           Hi, I'm Jessica – a{" "}
-          <span className="text-primary">Frontend Engineer</span> and{" "}
+          <span className="text-primary">Frontend Developer</span> and{" "}
           <span className="text-primary">Technical Writer</span>
         </h1>
         <p className="py-6 text-sm text-justify leading-6">
