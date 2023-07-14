@@ -43,18 +43,18 @@ const Header: React.FC = () => {
         <a href="#contact">
           <Button text="contact me!!" />
         </a>
-        <figure className="flex justify-between items-center w-32 py-1">
+        <figure className="flex justify-between items-center w-40 py-1">
           <Link to="https://github.com/ForJessicaSake">
-            <img src={GitHub} alt="GitHub" className="h-8 w-8" />
+            <img src={GitHub} alt="GitHub" className="h-10 w-10" />
           </Link>
           <Link to="https://hashnode.com/@ForJessicasake">
-            <SiHashnode className="h-5 w-5" />
+            <SiHashnode className="h-6 w-6" />
           </Link>
           <Link to="https://www.linkedin.com/in/jessica-joseph-/">
-            <FiLinkedin className="h-5 w-5" />
+            <FiLinkedin className="h-6 w-6" />
           </Link>
           <Link to="https://twitter.com/forJessica_sake">
-            <FiTwitter className="h-5 w-5" />
+            <FiTwitter className="h-6 w-6" />
           </Link>
         </figure>
       </figcaption>
