@@ -30,12 +30,12 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community"
-          about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed working on the project with the engineering team."
+          about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed managing and maintaining this project with the engineering team."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
           image={goalTracker}
-          title="A goal Tracker Application: In progress"
+          title="A goal Tracker Application"
           about="Everything you need to track your progress. Well everything you need if you can stay consistent and keep the momentum going. This project was developed using TypeScript, Firebase and TailwindCSS."
           link="https://progress-pal.vercel.app/"
         />
@@ -62,7 +62,7 @@ const Project: React.FC = () => {
 
         <Card
           image={dockett}
-          title="Sticky Note Web Application"
+          title="Sticky Note Application"
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
           link="https://dockett.vercel.app/"
         />

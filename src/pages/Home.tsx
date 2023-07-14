@@ -8,6 +8,7 @@ import Header from '../components/Header'
 import Project from '../components/Project'
 import WritingExperience from '../components/Writing'
 import Experience from '../components/Experience'
+import GuestWriting from '../components/GuestWriting'
 
 const Home:React.FC = () => {
   return (
@@ -17,8 +18,9 @@ const Home:React.FC = () => {
     <Box/>
     <Skills/>
     <Experience/>
-    <WritingExperience/>
     <Project/>
+    <WritingExperience/>
+    <GuestWriting/>
     <Publications/>
     <Contact/>
     <Footer/>
