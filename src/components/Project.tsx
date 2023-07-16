@@ -46,12 +46,12 @@ const Project: React.FC = () => {
           link="https://innovotio-website.vercel.app/"
         />
 
-        <Card
+        {/* <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
           about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this using Tailwind, TypeScript and React. I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
           link="https://bookmark-landing-page-self.vercel.app/"
-        />
+        /> */}
 
         {/* <Card
           image={sunnyside}
@@ -60,7 +60,7 @@ const Project: React.FC = () => {
           link="https://sunnyside-agencies.vercel.app/"
         /> */}
 
-        <Card
+        {/* <Card
           image={dockett}
           title="Sticky Note Application"
           about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
@@ -72,7 +72,7 @@ const Project: React.FC = () => {
           title="Lamoore: An Ecommerce Webiste"
           about="Welcome to Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
           link="https://lamoore.vercel.app/"
-        />
+        /> */}
 
         {/* <Card
           image={crypto}
