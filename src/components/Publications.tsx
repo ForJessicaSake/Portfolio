@@ -80,7 +80,7 @@ const Publications:React.FC = () => {
               >
                 <figure className="border w-80">
                   <Link
-                    to={`https://forjessicasake.hashnode.dev/${articles.slug}`}
+                    to={`https://forjessicasake.hashnode.dev/${articles.slug}` } target="blank" 
                   >
                     <img
                       src={articles.coverImage}

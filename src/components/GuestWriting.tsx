@@ -90,7 +90,7 @@ const GuestWriting: React.FC = () => {
               className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
             >
               <figure className="border w-80">
-                <Link to={article.link}>
+                <Link to={article.link} target="blank">
                   <img
                     src={article.coverImage}
                     alt="blog post cover"
