@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           </figure>
         </section>
         <p className="py-3">jessicajoseph1807@gmail.com</p>
-        <p>Frontend Engineer and Technical Writer</p>
+        <p>Frontend Developer and Technical Writer</p>
       </nav>
 
       <section className="flex flex-col lg:py-0 py-8">
