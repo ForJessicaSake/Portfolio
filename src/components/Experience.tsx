@@ -21,14 +21,14 @@ const Experience: React.FC = () => {
         <ExperienceCard
           image={Brimble}
           title="Frontend Developer"
-          company="Brimble: Contract"
+          company="Brimble"
           date="April 2023 - Present"
         />
         <div className="py-8">
           <ExperienceCard
             image={Innovotio}
             title="Frontend Developer"
-            company="Innovotio: Contract"
+            company="Innovotio"
             date="April 2023 - present"
           />
         </div>
@@ -36,7 +36,7 @@ const Experience: React.FC = () => {
         <ExperienceCard
           image={DevCareer}
           title="Frontend Engineer"
-          company="DevCareer: Internship"
+          company="DevCareer: Intern"
           date="September 2022 - December 2022"
         />
 
@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
           <ExperienceCard
             image={EHC}
             title="Engineering Lead"
-            company="EmpowerHerCommunity: Full time"
+            company="EmpowerHerCommunity"
             date="February 2023 - Present"
           />
         </div>
