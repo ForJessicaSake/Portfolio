@@ -48,7 +48,7 @@ const Project: React.FC = () => {
         <Card
           image="/Ecommerce.png"
           title="Ecommerce: Fasco Grocery Store"
-          about="Mastered Zusatand state management library by building this React application that allows you to order groceries easily on the website."
+          about="Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
         />
 
