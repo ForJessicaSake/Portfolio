@@ -36,7 +36,7 @@ const Project: React.FC = () => {
         <Card
           image={goalTracker}
           title="A goal Tracker Application"
-          about="Everything you need to track your progress. Well everything you need if you can stay consistent and keep the momentum going. This project was developed using TypeScript, Firebase and TailwindCSS."
+          about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are lookin to track your long/short term goals."
           link="https://progress-pal.vercel.app/"
         />
         <Card
@@ -45,29 +45,36 @@ const Project: React.FC = () => {
           about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, and Toastify."
           link="https://innovotio-website.vercel.app/"
         />
+        <Card
+          image="/Ecommerce.png"
+          title="Ecommerce: Fasco Grocery Store"
+          about="Mastered Zusatand state management library by building this React application that allows you to order groceries easily on the website."
+          link="https://innovotio-website.vercel.app/"
+        />
 
         {/* <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
-          about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this using Tailwind, TypeScript and React. I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
+          about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this inorder to master Tailwind and React, I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
           link="https://bookmark-landing-page-self.vercel.app/"
         /> */}
 
-        {/* <Card
+        <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
-          about="Tried out Jotai on this responsive and user-friendly site. It was developed using frontend technologies like TypeScript, React, and Tailwind. This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for the design."
+          about="Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for styling."
           link="https://sunnyside-agencies.vercel.app/"
-        /> */}
-
-        {/* <Card
-          image={dockett}
-          title="Sticky Note Application"
-          about="Introducing Dockett, the ultimate note-taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized and on top of your tasks at all times. Dockett was built using React, Firebase, Tailwind and Toastify."
-          link="https://dockett.vercel.app/"
         />
 
         <Card
+          image={dockett}
+          title="Sticky Note Application"
+          about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
+          link="https://dockett.vercel.app/"
+        />
+    
+
+        {/* <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
           about="Welcome to Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
