@@ -49,7 +49,7 @@ const Project: React.FC = () => {
           image="/Ecommerce.png"
           title="Ecommerce: Fasco Grocery Store"
           about="Mastered Zusatand state management library by building this React application that allows you to order groceries easily on the website."
-          link="https://innovotio-website.vercel.app/"
+          link="https://ecommerce.brimble.app/"
         />
 
         {/* <Card
