@@ -39,12 +39,7 @@ const Project: React.FC = () => {
           about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are lookin to track your long/short term goals."
           link="https://progress-pal.vercel.app/"
         />
-        {/* <Card
-          image={inno}
-          title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This project was developed using NextJs, and Tailwind."
-          link="https://innovotio-website.vercel.app/"
-        /> */}
+      
 
         <Card
           image="/Ecommerce.png"
@@ -53,18 +48,24 @@ const Project: React.FC = () => {
           link="https://ecommerce.brimble.app/"
         />
 
-        {/* <Card
+        <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
           about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
           link="https://bookmark-landing-page-self.vercel.app/"
-        /> */}
-        {/* <Card
+        />
+          <Card
+          image={inno}
+          title="Innovotio"
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This project was developed using NextJs, and Tailwind."
+          link="https://innovotio-website.vercel.app/"
+        />
+        <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
           about="I Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking and Jotai for managing client states"
           link="https://sunnyside-agencies.vercel.app/"
-        /> */}
+        />
 
         {/* <Card
           image={dockett}

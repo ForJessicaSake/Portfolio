@@ -42,7 +42,7 @@ const Experience: React.FC = () => {
         <div className="py-8">
           <ExperienceCard
             image={DevCareer}
-            title="Frontend Developer Intern"
+            title="Frontend Engineer"
             company="DevCareer"
             date="September 2022 - December 2022"
           />
