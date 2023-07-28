@@ -30,7 +30,7 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community"
-          about="A redesign of our community website using frontend technologies such as NextJs and NodeJs. I thoroughly enjoyed managing and maintaining this project with the engineering team."
+          about="A redesign of our community website using frontend technologies such as NextJs and NodeJs. I thoroughly enjoyed managing and maintaining this project as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
@@ -57,7 +57,7 @@ const Project: React.FC = () => {
           <Card
           image={inno}
           title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This project was developed using NextJs, and Tailwind."
+          about="I developed this company site - Innovotio by translating Figma designs to frontend codes."
           link="https://innovotio-website.vercel.app/"
         />
         <Card
