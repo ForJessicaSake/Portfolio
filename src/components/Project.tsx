@@ -57,7 +57,7 @@ const Project: React.FC = () => {
           <Card
           image={inno}
           title="Innovotio"
-          about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that We provide qualified tech talents to hiring organizations and curate branded merchandise."
+          about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
           link="https://innovotio-website.vercel.app/"
         />
         <Card
