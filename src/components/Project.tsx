@@ -30,7 +30,7 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community"
-          about="A redesign of our community website using frontend technologies such as NextJs, Markdown, AOS, and Tailwind. I thoroughly enjoyed managing and maintaining this project with the engineering team."
+          about="A redesign of our community website using frontend technologies such as NextJs and NodeJs. I thoroughly enjoyed managing and maintaining this project with the engineering team."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
@@ -42,37 +42,35 @@ const Project: React.FC = () => {
         <Card
           image={inno}
           title="Innovotio"
-          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This projecy was developed using NextJs, Tailwind CSS, and Toastify."
+          about="Innovotio is a tech business support organization that specializes in connecting tech talent across all levels of experience to organizations of all sizes to achieve their business goals. This project was developed using NextJs, and Tailwind."
           link="https://innovotio-website.vercel.app/"
+        />
+
+        <Card
+          image={bookmark}
+          title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
+          about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
+          link="https://bookmark-landing-page-self.vercel.app/"
         />
         <Card
           image="/Ecommerce.png"
           title="Ecommerce: Fasco Grocery Store"
-          about="Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
+          about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
         />
-
-        {/* <Card
-          image={bookmark}
-          title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
-          about="I was putting my skills to the test on responsiveness, and I took up this frontend mentor project. I built this inorder to master Tailwind and React, I was able to type check props, hooks, and create a bunch of reusable components in my very first attempt."
-          link="https://bookmark-landing-page-self.vercel.app/"
-        /> */}
-
         <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
-          about="Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking, Jotai for managing client states and tailwind for styling."
+          about="I Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking and Jotai for managing client states"
           link="https://sunnyside-agencies.vercel.app/"
         />
 
-        <Card
+        {/* <Card
           image={dockett}
           title="Sticky Note Application"
           about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
           link="https://dockett.vercel.app/"
-        />
-    
+        /> */}
 
         {/* <Card
           image={Lamoore}
