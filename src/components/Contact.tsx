@@ -10,6 +10,7 @@ import emailjs from "@emailjs/browser";
 import { useAtom } from "jotai";
 import { mail } from "../atoms/Atoms";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 
 const Contact: React.FC = () => {
   const [toMail, setToMail] = useAtom(mail);
@@ -28,9 +29,9 @@ const Contact: React.FC = () => {
         submit.current,
         "VzAh-kzQKj2SeXc8v"
       );
-      alert("mail sent successfully");
+      toast("mail sent successfully");
     } else {
-      alert("invalid details, please try again.");
+      toast("invalid details, please try again.");
     }
   };
 
