@@ -48,7 +48,7 @@ const Project: React.FC = () => {
           link="https://ecommerce.brimble.app/"
         />
 
-        <Card
+        {/* <Card
           image={bookmark}
           title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
           about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
@@ -59,13 +59,13 @@ const Project: React.FC = () => {
           title="Innovotio"
           about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
           link="https://innovotio-website.vercel.app/"
-        />
-        <Card
+        /> */}
+        {/* <Card
           image={sunnyside}
           title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
           about="I Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking and Jotai for managing client states"
           link="https://sunnyside-agencies.vercel.app/"
-        />
+        /> */}
 
         {/* <Card
           image={dockett}
