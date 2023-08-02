@@ -46,7 +46,7 @@ const GuestWriting: React.FC = () => {
       title: "Typescript: How to Check Type of Objects & Variable",
       coverImage: "/types.png",
       brief:
-        "Many developers are embracing TypeScript to build scalable applications because it enforces static typing. However, when working with variables or objects of the union type, you may want to narrow these types down to do something more specific, and knowing how to check these types is the first step.",
+        "Many developers are embracing TypeScript to build scalable applications because it enforces static typing. However, when working with variables or objects of the union type, you may want to narrow these types down to do something more specific...",
     },
 
     {
@@ -101,7 +101,7 @@ const GuestWriting: React.FC = () => {
 
               <figcaption className="w-80">
                 <h2 className="font-bold h-20 flex items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
-            {article.title}
+                  {article.title}
                 </h2>
                 <p className="h-32 text-xs border border-t-0 px-2 py-1 text-justify">
                   {article.brief}
