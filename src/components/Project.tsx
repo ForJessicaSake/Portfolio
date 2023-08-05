@@ -11,6 +11,7 @@ import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
 import crypto from "../assets/art.png";
 import goalTracker from "../assets/goalTracker2.png";
+import Morent from "../assets/Morent.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
@@ -39,7 +40,12 @@ const Project: React.FC = () => {
           about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are lookin to track your long/short term goals."
           link="https://progress-pal.vercel.app/"
         />
-      
+        <Card
+          image={Morent}
+          title="The Best Platform for Car Rental"
+          about="Exploring Supabase and its key features, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
+          link="https://car-rental.brimble.app/"
+        />
 
         <Card
           image="/Ecommerce.png"
@@ -48,13 +54,13 @@ const Project: React.FC = () => {
           link="https://ecommerce.brimble.app/"
         />
 
-        {/* <Card
+        <Card
           image={bookmark}
-          title="Bookmark: A Frontend Mentor Intermediate Challenge Project"
+          title="Bookmark: Landing Page"
           about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
           link="https://bookmark-landing-page-self.vercel.app/"
         />
-          <Card
+          {/* <Card
           image={inno}
           title="Innovotio"
           about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
@@ -62,17 +68,17 @@ const Project: React.FC = () => {
         /> */}
         {/* <Card
           image={sunnyside}
-          title="Sunny Side Agencies; A Frontend Mentor Junior Challenge Project"
+          title="Sunny Side Agencies"
           about="I Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking and Jotai for managing client states"
           link="https://sunnyside-agencies.vercel.app/"
         /> */}
 
-        {/* <Card
+        <Card
           image={dockett}
           title="Sticky Note Application"
           about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
           link="https://dockett.vercel.app/"
-        /> */}
+        />
 
         {/* <Card
           image={Lamoore}
