@@ -11,7 +11,7 @@ import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
 import crypto from "../assets/art.png";
 import goalTracker from "../assets/goalTracker2.png";
-import Morent from "../assets/Morent.png";
+import Morent from "../assets/morent.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
