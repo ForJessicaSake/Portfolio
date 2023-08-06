@@ -48,19 +48,19 @@ const Project: React.FC = () => {
         />
 
         <Card
+          image={bookmark}
+          title="Bookmark: Landing Page"
+          about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
+          link="https://bookmark-landing-page-self.vercel.app/"
+        />
+        <Card
           image="/Ecommerce.png"
           title="Ecommerce: Fasco Grocery Store"
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
         />
 
-        <Card
-          image={bookmark}
-          title="Bookmark: Landing Page"
-          about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
-          link="https://bookmark-landing-page-self.vercel.app/"
-        />
-          {/* <Card
+        {/* <Card
           image={inno}
           title="Innovotio"
           about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
