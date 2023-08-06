@@ -11,7 +11,6 @@ import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
 import crypto from "../assets/art.png";
 import goalTracker from "../assets/goalTracker2.png";
-import Morent from "../assets/morent.png";
 
 const Project: React.FC = () => {
   useEffect(() => {
@@ -41,7 +40,7 @@ const Project: React.FC = () => {
           link="https://progress-pal.vercel.app/"
         />
         <Card
-          image={Morent}
+          image="/morent.png"
           title="The Best Platform for Car Rental"
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
