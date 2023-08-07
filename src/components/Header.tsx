@@ -29,16 +29,16 @@ const Header: React.FC = () => {
           data-aos-once="false"
           className="lg:text-3xl text-2xl font-semibold"
         >
-          Hi, I'm Jessica – a{" "}
+          Hello there 👋🏼, <br/>I'm Jessica – a{" "}
           <span className="text-primary">Frontend Developer</span> and{" "}
           <span className="text-primary">Technical Writer</span>
         </h1>
         <p className="py-6 text-sm text-justify leading-6">
-          I'm currently developing interactive web applications using the latest
-          web technologies. In my spare time, I enjoy exploring the world of
-          JavaScript and Backend-as-a-Service to create cool applications, and I
-          frequently publish a variety of technical informative articles while
-          exploring as a guest writer or on my hashnode blog.
+          I'm currently building cool web applications using JavaScript and its
+          frameworks. In my leisure time, I enjoy exploring web technologies and
+          Backend-as-a-Service to create cool applications and I frequently
+          publish a variety of technical informative articles while exploring as
+          a guest writer or on my hashnode blog.
         </p>
         <a href="#contact">
           <Button text="contact me!!" />
