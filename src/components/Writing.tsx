@@ -22,7 +22,7 @@ const WritingExperience: React.FC = () => {
           <ExperienceCard
             image={ Smashing}
             title="Technical Writer"
-            company="Smashing: Freelance"
+            company="Smashing Magazine: Freelance"
             date="January 2023 - May 2023"
           />
         </div>
