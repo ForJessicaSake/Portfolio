@@ -30,13 +30,13 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community"
-          about="A redesign of our community website using frontend technologies such as NextJs and NodeJs. I thoroughly enjoyed managing and maintaining this project as the engineering lead."
+          about="A redesign of our community website using web technologies such as NextJs and NodeJs. I mastered Next while building and maintaining this project as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
           image={goalTracker}
           title="A goal Tracker Application"
-          about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are lookin to track your long/short term goals."
+          about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are looking to track your long/short term goals."
           link="https://progress-pal.vercel.app/"
         />
         <Card
@@ -60,38 +60,38 @@ const Project: React.FC = () => {
           link="https://bookmark-landing-page-self.vercel.app/"
         />
 
-        {/* <Card
-          image={inno}
-          title="Innovotio"
-          about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
-          link="https://innovotio-website.vercel.app/"
-        /> */}
-        {/* <Card
-          image={sunnyside}
-          title="Sunny Side Agencies"
-          about="I Tried out Jotai on this responsive and user-friendly site.  This project showcases my skills in using TypeScript for type checking and Jotai for managing client states"
-          link="https://sunnyside-agencies.vercel.app/"
-        /> */}
-
         <Card
           image={dockett}
           title="Sticky Note Application"
           about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
           link="https://dockett.vercel.app/"
         />
+        <Card
+          image={sunnyside}
+          title="Sunny Side Agencies"
+          about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
+          link="https://sunnyside-agencies.vercel.app/"
+        />
 
-        {/* <Card
+        <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
-          about="Welcome to Lamoore, your go-to destination for fast, seamless, and enjoyable online shopping for all your clothing needs! We've built an amazing ecommerce website using the latest web technologies, including React, AOS library, and JSON API, to provide you with the best possible shopping experience."
+          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
           link="https://lamoore.vercel.app/"
-        /> */}
+        />
 
-        {/* <Card
+        <Card
           image={crypto}
           title="Crypto Art: A Landing Page"
-          about="Digital marketplace landing page for crypto collectibles and NFTs. Buy, sell, and discover exclusive digital assets today. Developed using Next.js, AOS animation and TailwindCSS"
+          about="I recently just heard about AOS and I didn't hesitate to try it out. This Digital marketplace landing page for crypto collectibles and NFTs was developed using Next.js, and AOS library"
           link="https://crypto-art-teal.vercel.app/"
+        />
+
+        {/* <Card
+          image={inno}
+          title="Innovotio"
+          about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
+          link="https://innovotio-website.vercel.app/"
         /> */}
       </section>
     </section>
