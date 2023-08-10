@@ -66,7 +66,7 @@ const Project: React.FC = () => {
           about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
           link="https://dockett.vercel.app/"
         />
-        <Card
+        {/* <Card
           image={sunnyside}
           title="Sunny Side Agencies"
           about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
@@ -78,14 +78,14 @@ const Project: React.FC = () => {
           title="Lamoore: An Ecommerce Webiste"
           about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
           link="https://lamoore.vercel.app/"
-        />
-
+        /> */}
+{/* 
         <Card
           image={crypto}
           title="Crypto Art: A Landing Page"
           about="I recently just heard about AOS and I didn't hesitate to try it out. This Digital marketplace landing page for crypto collectibles and NFTs was developed using Next.js, and AOS library"
           link="https://crypto-art-teal.vercel.app/"
-        />
+        /> */}
 
         {/* <Card
           image={inno}
