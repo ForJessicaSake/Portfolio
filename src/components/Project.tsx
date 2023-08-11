@@ -6,6 +6,7 @@ import Card from "../elements/Card";
 import dockett from "../assets/dockett.png";
 import bookmark from "../assets/bookmark.png";
 import sunnyside from "../assets/sunnyside.png";
+import todo from "../assets/todo.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png";
 import inno from "../assets/inno.png";
@@ -45,7 +46,12 @@ const Project: React.FC = () => {
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
-
+        <Card
+          image={Lamoore}
+          title="Lamoore: An Ecommerce Webiste"
+          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
+          link="https://lamoore.vercel.app/"
+        />
         <Card
           image="/Ecommerce.png"
           title="Ecommerce: Fasco Grocery Store"
@@ -53,12 +59,12 @@ const Project: React.FC = () => {
           link="https://ecommerce.brimble.app/"
         />
 
-        <Card
-          image={bookmark}
-          title="Bookmark: Landing Page"
-          about="I challenged myself with a Frontend Mentor project to master Tailwind CSS and improve my responsive web design skills. The result is visually appealing and fully responsive on various devices."
-          link="https://bookmark-landing-page-self.vercel.app/"
-        />
+        {/* <Card
+          image={todo}
+          title="A Task Productivity App"
+          about="During Empower Her Community Pair programming exercise, my team of frontend developers developed a task productivity app that helps you keep track of daily tasks using React and Firebase."
+          link="https://ehc-todoapp.web.app/"
+        /> */}
 
         <Card
           image={dockett}
@@ -71,15 +77,9 @@ const Project: React.FC = () => {
           title="Sunny Side Agencies"
           about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
           link="https://sunnyside-agencies.vercel.app/"
-        />
+  />*/}
 
-        <Card
-          image={Lamoore}
-          title="Lamoore: An Ecommerce Webiste"
-          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
-          link="https://lamoore.vercel.app/"
-        /> */}
-{/* 
+        {/* 
         <Card
           image={crypto}
           title="Crypto Art: A Landing Page"
