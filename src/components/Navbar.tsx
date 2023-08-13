@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         onClick={navClose}
         className={`${
           nav ? "block" : "hidden"
-        } px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0 h-96 top-20 py-8 lg:py-0 bg-background w-full flex flex-col  justify-between`}
+        } px-6 z-50 text-secondary absolute lg:text-sm lg:static lg:flex lg:flex-row lg:h-0 lg:top-0 h-96 top-20 py-8 lg:py-0 bg-black w-full flex flex-col  justify-between`}
       >
         <li>
           <a href="#about" className="active:text-white">
