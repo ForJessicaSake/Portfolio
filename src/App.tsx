@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   const queryClient = new QueryClient();
   return (
-    <div className=" bg-background">
+    <div className=" bg-black">
       <QueryClientProvider client={queryClient}>
         <Router>
           <Routes>

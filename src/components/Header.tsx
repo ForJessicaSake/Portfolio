@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Button from "../custom/Button";
 import block from "../assets/block.svg";
-import avartar from "../assets/header.png";
+import avartar from "../assets/header2.png";
 import dots from "../assets/Dots.svg";
 import GitHub from "../assets/Github.svg";
 import { FiLinkedin, FiTwitter } from "react-icons/fi";

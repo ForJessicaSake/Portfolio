@@ -31,13 +31,13 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community"
-          about="A redesign of our community website using web technologies such as NextJs and NodeJs. I mastered Next while building and maintaining this project as the engineering lead."
+          about="I explored Next.js and learned the importance of teamwork while building and maintaining the redesign of the community website as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
           image={goalTracker}
           title="A goal Tracker Application"
-          about="I Mastered Firebase and TypeScript while building this fullstack goal tracker application that allows you to track your goal progress. Well, it has everything you need if you are looking to track your long/short term goals."
+          about="I mastered Firebase and TypeScript on this fullstack goal tracker application that allows you to track your goal progress."
           link="https://progress-pal.vercel.app/"
         />
         <Card
@@ -46,7 +46,7 @@ const Project: React.FC = () => {
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
-           {/* <Card
+        {/* <Card
           image="/Ecommerce.png"
           title="Fasco Grocery Store"
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
@@ -58,19 +58,18 @@ const Project: React.FC = () => {
           about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
           link="https://lamoore.vercel.app/"
         /> */}
-          {/* <Card
+        {/* <Card
           image={sunnyside}
           title="Sunny Side Agencies"
           about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
           link="https://sunnyside-agencies.vercel.app/"
   /> */}
-                {/* <Card
+        {/* <Card
           image={dockett}
           title="Sticky Note Application"
           about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
           link="https://dockett.vercel.app/"
         /> */}
-     
 
         {/* <Card
           image={todo}
@@ -78,9 +77,6 @@ const Project: React.FC = () => {
           about="During Empower Her Community Pair programming exercise, my team of frontend developers developed a task productivity app that helps you keep track of daily tasks using React and Firebase."
           link="https://ehc-todoapp.web.app/"
         /> */}
-
-
-      
 
         {/* 
         <Card
