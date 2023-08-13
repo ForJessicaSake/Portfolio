@@ -17,9 +17,9 @@ const Home:React.FC = () => {
     <Header/>
     <Box/>
     <Skills/>
-    <Experience/>
+    {/* <Experience/> */}
     <Project/>
-    <WritingExperience/>
+    {/* <WritingExperience/> */}
     <GuestWriting/>
     <Publications/>
     <Contact/>

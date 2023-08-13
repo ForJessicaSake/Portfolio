@@ -51,11 +51,11 @@ const Navbar: React.FC = () => {
             <span className="text-primary">#</span>skills
           </a>
         </li>
-        <li>
+        {/* <li>
           <a className="active:text-white" href="#experience">
             <span className="text-primary">#</span>experience
           </a>
-        </li>
+        </li> */}
 
         <li>
           <a className="active:text-white" href="#project">
