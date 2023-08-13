@@ -34,9 +34,9 @@ const Header: React.FC = () => {
           <span className="text-primary">Technical Writer</span>
         </h1>
         <p className="py-6 text-sm text-justify leading-6">
-          I'm currently building cool web applications using JavaScript and its
+          I'm currently building quality web applications using JavaScript and its
           frameworks. In my leisure time, I enjoy exploring web technologies and
-          Backend-as-a-Service to create cool applications and I frequently
+          Backend-as-a-Service tools to create cool applications and I frequently
           publish a variety of technical informative articles while exploring as
           a guest writer or on my hashnode blog.
         </p>
