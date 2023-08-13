@@ -114,7 +114,7 @@ const Skills: React.FC = () => {
          
           <table className="lg:w-52  w-36">
             <tr>
-              <th className="border text-start px-4 h-10">Frameworks/Libaries</th>
+              <th className="border text-start px-4 h-10">Frameworks</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
               React <br /> Next <br/> React Native
