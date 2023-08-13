@@ -51,6 +51,23 @@ const Skills: React.FC = () => {
           </figure>
         </div>
         <div className=" grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm w-12/12 lg:w-8/12 lg:pb-0 pb-16">
+          
+        <table
+            className="lg:w-52  w-36"
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="10"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
+            <tr>
+              <th className="border text-start px-4 h-10">Mark up</th>
+            </tr>
+            <td className="border border-t-0 px-4  py-2 leading-6">
+              Html <br /> XML
+            </td>
+          </table>
           <table
             className="lg:w-52  w-36"
             data-aos="fade-right"
@@ -67,32 +84,6 @@ const Skills: React.FC = () => {
               JavaScript TypeScript
             </td>
           </table>
-          <table
-            className="lg:w-52  w-36"
-            data-aos="fade-down"
-            data-aos-offset="100"
-            data-aos-delay="10"
-            data-aos-duration="600"
-            data-aos-easing="ease-in-out"
-            data-aos-once="true"
-          >
-            <tr>
-              <th className="border text-start px-4 h-10">Mark up</th>
-            </tr>
-            <td className="border border-t-0 px-4  py-2 leading-6">
-              Html <br /> XML
-            </td>
-          </table>
-
-          <table className="lg:w-52  w-36">
-            <tr>
-              <th className="border text-start px-4 h-10">Frameworks</th>
-            </tr>
-            <td className="border border-t-0 px-4 py-2 leading-6">
-              React <br /> Next
-            </td>
-          </table>
-
           <table className="lg:w-52  w-36">
             <tr>
               <th className="border text-start px-4 h-10">State Libraies</th>
@@ -102,6 +93,7 @@ const Skills: React.FC = () => {
             </td>
           </table>
 
+       
           <table
             className="lg:w-52  w-36"
             data-aos="fade-up"
@@ -118,6 +110,18 @@ const Skills: React.FC = () => {
               CSS <br /> Tailwind <br /> Emotion <br /> Styled-Component
             </td>
           </table>
+
+         
+          <table className="lg:w-52  w-36">
+            <tr>
+              <th className="border text-start px-4 h-10">Frameworks/Libaries</th>
+            </tr>
+            <td className="border border-t-0 px-4 py-2 leading-6">
+              React <br /> Next <br/> React Native
+            </td>
+          </table>
+
+        
           <table
             className="lg:w-52  w-36"
             data-aos="fade-left"
