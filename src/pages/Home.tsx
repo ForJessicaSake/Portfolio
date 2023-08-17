@@ -15,7 +15,7 @@ const Home:React.FC = () => {
     <main className='2xl:container 2xl:mx-auto bg-black font-font text-secondary px-2 overflow-x-hidden'>
     <Navbar/>
     <Header/>
-    <Box/>
+    {/* <Box/> */}
     <Skills/>
     {/* <Experience/> */}
     <Project/>

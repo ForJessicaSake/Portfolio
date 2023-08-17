@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
     AOS.init();
   });
   return (
-    <section className="flex flex-col px-6 py-20 cursor-pointer" id="skills">
+    <section className="flex flex-col px-6 py-20cursor-pointer" id="skills">
       <section className="flex justify-around items-center lg:w-3/12 w-72 pb-10">
         <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Skills
