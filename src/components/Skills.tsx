@@ -107,7 +107,7 @@ const Skills: React.FC = () => {
               <th className="border text-start px-4 h-10">Stylesheet</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-              CSS <br /> Tailwind <br /> Emotion <br /> Styled-Component
+              CSS <br /> Tailwind <br /> Styled-Component
             </td>
           </table>
 

@@ -30,7 +30,7 @@ const Project: React.FC = () => {
       <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
         <Card
           image={Empower}
-          title="Empower Her Community"
+          title="Empower Her Community Website"
           about="I explored Next.js, and learned the importance of teamwork while building and maintaining the redesign of the community website as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
@@ -46,12 +46,18 @@ const Project: React.FC = () => {
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
-        {/* <Card
+           <Card
+          image="/inno.png"
+          title="Innovotio's Website"
+          about="Mastering Next.js, I translated this Figma design into frontend codes. A company website - Innovotio."
+          link="https://innovotio-website.vercel.app/"
+        />
+        <Card
           image="/Ecommerce.png"
-          title="Fasco Grocery Store"
+          title="A Grocery Store"
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
-        /> */}
+        />
         {/* <Card
           image={Lamoore}
           title="Lamoore: An Ecommerce Webiste"
@@ -64,19 +70,14 @@ const Project: React.FC = () => {
           about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
           link="https://sunnyside-agencies.vercel.app/"
   /> */}
-        {/* <Card
-          image={dockett}
-          title="Sticky Note Application"
-          about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
-          link="https://dockett.vercel.app/"
-        /> */}
+       
 
-        {/* <Card
+        <Card
           image={todo}
           title="A Task Productivity App"
-          about="During Empower Her Community Pair programming exercise, my team of frontend developers developed a task productivity app that helps you keep track of daily tasks using React and Firebase."
+          about="During Empower Her Community Pair programming exercise, my team developed a task productivity app that helps you keep track of tasks using React and Firebase."
           link="https://ehc-todoapp.web.app/"
-        /> */}
+        />
 
         {/* 
         <Card
@@ -86,11 +87,13 @@ const Project: React.FC = () => {
           link="https://crypto-art-teal.vercel.app/"
         /> */}
 
-        {/* <Card
-          image={inno}
-          title="Innovotio"
-          about="By translating Figma designs to frontend codes, I developed this company site - Innovotio. A tech organization that provides qualified tech talents to hiring organizations and curate branded merchandise."
-          link="https://innovotio-website.vercel.app/"
+     
+
+{/* <Card
+          image={dockett}
+          title="Sticky Note Application"
+          about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
+          link="https://dockett.vercel.app/"
         /> */}
       </section>
     </section>
