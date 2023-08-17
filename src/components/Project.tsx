@@ -61,7 +61,7 @@ const Project: React.FC = () => {
     
          <Card
           image={dockett}
-          title="Sticky Note Application"
+          title="A Sticky Note Application"
           about="My first attempt with Firebase and React. I developed a sticky note application for anyone with a busy schedule!"
           link="https://dockett.vercel.app/"
         />
