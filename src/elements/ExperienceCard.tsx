@@ -23,7 +23,7 @@ const ExperienceCard = ({
       <section className="lg:w-11/12 ">
         <h1 className="text-xl font-semibold">{title}</h1>
         <h4 className="text-base font-semibold py-2">{company}</h4>
-        {/* <h5 className="text-base pb-3 ">{date}</h5> */}
+        {/* <h5 className="text-base pb-3 "></h5> */}
         <p className="leading-6 text-sm lg:w-11/12 ">{experience}</p>
       </section>
 

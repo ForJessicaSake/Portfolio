@@ -29,9 +29,9 @@ const Header: React.FC = () => {
           data-aos-once="false"
           className="lg:text-3xl text-2xl font-semibold"
         >
-          Hello there 👋🏼, <br/>I'm Jessica – a{" "}
+          Hello 👋🏼, <br/>I'm Jessica – a{" "}
           <span className="text-primary">Frontend Developer</span> and{" "}
-          <span className="text-primary">Technical Writer</span>
+          <span className="text-primary">a Technical Writer</span>
         </h1>
         <p className="py-6 text-sm text-justify leading-6">
           I'm currently building quality web applications using JavaScript and its

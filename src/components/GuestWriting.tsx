@@ -17,6 +17,7 @@ const GuestWriting: React.FC = () => {
 
     {
       id: 5,
+      publication: "Smashing Magazine",
       link: "https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/",
       title: "The Safest Way To Hide Your API Keys When Using React",
       coverImage: "/API.png",
@@ -27,6 +28,7 @@ const GuestWriting: React.FC = () => {
 
     {
       id: 2,
+      publication: "Pieces",
       link: "https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework",
       title:
         "Everything You Need to Know to Choose a Modern JavaScript Framework",
@@ -36,6 +38,7 @@ const GuestWriting: React.FC = () => {
     },
     {
       id: 4,
+      publication: "Turing",
       link: "https://www.turing.com/kb/nextjs-server-side-rendering",
       title: "How to Build a Next.js App With Server-Side Rendering",
       coverImage: "/ssr.png",
@@ -44,6 +47,7 @@ const GuestWriting: React.FC = () => {
     },
     {
       id: 3,
+      publication: "Turing",
       link: "https://www.turing.com/kb/check-type-of-objects-variables-in-typescript",
       title: "Typescript: How to Check Type of Objects & Variable",
       coverImage: "/types.png",
@@ -53,6 +57,7 @@ const GuestWriting: React.FC = () => {
 
     {
       id: 1,
+      publication: "Turing",
       link: "https://www.turing.com/kb/how-to-create-slider-in-js",
       title: "How to Create a Slider in JavaScript?",
       coverImage: "/slider.png",
@@ -62,6 +67,7 @@ const GuestWriting: React.FC = () => {
 
     {
       id: 6,
+      publication: "Open Replay",
       link: "https://blog.openreplay.com/you-dont-need-a-state-management-library--use-ustate-plus-context/",
       title:
         "You Don't Need A State Management Library -- Use UseState Plus Context",
@@ -102,8 +108,8 @@ const GuestWriting: React.FC = () => {
               </figure>
 
               <figcaption className="w-80">
-                <h2 className="font-bold h-20 flex items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
-                  {article.title}
+                <h2 className="font-semibold h-20 flex items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
+                 *{article.publication}* - {article.title}
                 </h2>
                 <p className="h-32 text-xs border border-t-0 px-2 py-1 text-justify">
                   {article.brief}
