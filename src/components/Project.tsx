@@ -46,17 +46,24 @@ const Project: React.FC = () => {
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
-           <Card
+    <Card
+          image="/Ecommerce.png"
+          title="A Grocery Store"
+          about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
+          link="https://ecommerce.brimble.app/"
+        />
+        <Card
           image="/inno.png"
           title="Innovotio's Website"
           about="Mastering Next.js, I translated this Figma design into frontend codes. A company website - Innovotio."
           link="https://innovotio-website.vercel.app/"
         />
-        <Card
-          image="/Ecommerce.png"
-          title="A Grocery Store"
-          about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
-          link="https://ecommerce.brimble.app/"
+    
+         <Card
+          image={dockett}
+          title="Sticky Note Application"
+          about="My first attempt with Firebase and React. I developed a sticky note application for anyone with a busy schedule!"
+          link="https://dockett.vercel.app/"
         />
         {/* <Card
           image={Lamoore}
@@ -70,14 +77,13 @@ const Project: React.FC = () => {
           about="Matering responsive designs, I jumped on a frontend mentor challenge and developed this responsive and user-friendly site."
           link="https://sunnyside-agencies.vercel.app/"
   /> */}
-       
 
-        <Card
+        {/* <Card
           image={todo}
           title="A Task Productivity App"
           about="During Empower Her Community Pair programming exercise, my team developed a task productivity app that helps you keep track of tasks using React and Firebase."
           link="https://ehc-todoapp.web.app/"
-        />
+        /> */}
 
         {/* 
         <Card
@@ -87,14 +93,7 @@ const Project: React.FC = () => {
           link="https://crypto-art-teal.vercel.app/"
         /> */}
 
-     
-
-{/* <Card
-          image={dockett}
-          title="Sticky Note Application"
-          about="My first attempt with Firebase and React - Introducing Dockett, the ultimate note taking app for anyone with a busy schedule! With Dockett, you can take down short notes quickly and easily, helping you stay organized at all times "
-          link="https://dockett.vercel.app/"
-        /> */}
+       
       </section>
     </section>
   );
