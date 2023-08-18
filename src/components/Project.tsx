@@ -37,7 +37,7 @@ const Project: React.FC = () => {
         <Card
           image={goalTracker}
           title="A goal Tracker Application"
-          about="I mastered Firebase and TypeScript on this fullstack goal tracker application that allows you to track your goal progress."
+          about="I mastered Firebase, TypeScript and integrated Paystack on this fullstack goal tracker application that allows you to track your goal progress."
           link="https://progress-pal.vercel.app/"
         />
         <Card
