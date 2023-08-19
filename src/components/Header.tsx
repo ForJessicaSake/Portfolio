@@ -29,10 +29,10 @@ const Header: React.FC = () => {
           data-aos-once="false"
           className="lg:text-3xl text-2xl font-semibold"
         >
-          Hello👋🏼 My name is <span className="text-primary">Jessica</span>
+          Hi👋🏼 my name is <span className="text-primary">Jessica</span>
           <br />
         </h1>
-        <p className="py-6 text-sm text-justify leading-6">
+        <p className="py-6 text-sm text-justify leading-7">
           I am a detail-oriented{" "}
           <span className="text-primary font-medium">Frontend developer</span>,
           currently building quality applications using JavaScript and its
