@@ -29,19 +29,19 @@ const Header: React.FC = () => {
           data-aos-once="false"
           className="lg:text-3xl text-2xl font-semibold"
         >
-          Hi👋🏼 my name is <span className="text-primary">Jessica</span>
+          Hello 👋🏼
           <br />
         </h1>
         <p className="py-6 text-sm text-justify leading-7">
-          I am a detail-oriented{" "}
-          <span className="text-primary font-medium">Frontend developer</span>,
+          I am <span className="text-primary">Jessica</span> a detail-oriented{" "}
+          <span className="text-primary font-medium">Software Developer</span>,
           currently building quality applications using JavaScript and its
           frameworks.
           <br />
           <br />
           In my spare time, I enjoy exploring Backend-as-a-Service solutions to
           build cool applications, and I frequently publish a variety of articles
-          as a <span className="text-primary font-medium">Technical writer</span> or on my
+          as a <span className="text-primary font-medium">Technical Writer</span> or on my
           hashnode blog.
         </p>
         <a href="#contact">
