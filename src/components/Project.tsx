@@ -46,7 +46,7 @@ const Project: React.FC = () => {
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
-    <Card
+        <Card
           image="/Ecommerce.png"
           title="A Grocery Store"
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."

@@ -29,19 +29,23 @@ const Header: React.FC = () => {
           data-aos-once="false"
           className="lg:text-3xl text-2xl font-semibold"
         >
-          Hello 👋🏼, <br/>I'm Jessica – a{" "}
-          <span className="text-primary">Frontend Developer</span> and{" "}
-        a  <span className="text-primary">Technical Writer</span>
+          Hello👋🏼 My name is <span className="text-primary">Jessica</span>
+          <br />
         </h1>
         <p className="py-6 text-sm text-justify leading-6">
-          I'm currently building quality web applications using JavaScript and its
-          frameworks. In my leisure time, I enjoy exploring web technologies and
-          Backend-as-a-Service tools to create cool applications and I frequently
-          publish a variety of technical informative articles while exploring as
-          a guest writer or on my hashnode blog.
+          I am a detail-oriented{" "}
+          <span className="text-primary font-medium">Frontend developer</span>,
+          currently building quality applications using JavaScript and its
+          frameworks.
+          <br />
+          <br />
+          In my spare time, I enjoy exploring Backend-as-a-Service solutions to
+          build cool applications, and I frequently publish a variety of articles
+          as a <span className="text-primary font-medium">Technical writer</span> or on my
+          hashnode blog.
         </p>
         <a href="#contact">
-          <Button text="contact me!!" />
+          <Button text="contact me!" />
         </a>
         <figure className="flex justify-between items-center w-40 py-1">
           <Link to="https://github.com/ForJessicaSake">

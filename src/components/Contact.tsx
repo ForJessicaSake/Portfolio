@@ -60,11 +60,11 @@ const Contact: React.FC = () => {
         </div>
         <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4">
           <h3 className="text-white">Message me here</h3>
-          <figure className="flex w-64 justify-between items-center">
+          <a className="flex w-64 justify-between items-center" href="mailto:jessicajoseph1807@gmail.com">
             <img src={email} alt="email" className="h-5 w-5" />
             jessicajoseph1807@gmail.com
-          </figure>
-          <figure>
+          </a>
+          <div>
             <Link
               to="https://twitter.com/forJessica_sake"
               className="flex w-36 justify-between items-center"
@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
               <FiTwitter className="h-5 w-5" />
               forJessicasake
             </Link>
-          </figure>
+          </div>
         </div>
       </section>
       <form
