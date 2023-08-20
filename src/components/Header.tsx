@@ -33,13 +33,13 @@ const Header: React.FC = () => {
           <br />
         </h1>
         <p className="py-6 text-base text-justify leading-7">
-          I am <span className="text-primary">Jessica</span> a detail-oriented{" "}
+          I am <span className="text-primary">Jessica,</span> a detail-oriented{" "}
           <span className="text-primary font-medium">Software Developer</span>,
           currently building quality applications using JavaScript and its
           frameworks.
           <br />
           <br />
-          In my spare time, I enjoy exploring Backend-as-a-Service solutions to
+          In my spare time, I enjoy exploring Backend-as-a-Service tools to
           build cool applications, and I frequently publish a variety of articles
           as a <span className="text-primary font-medium">Technical Writer</span> or on my
           hashnode blog.
