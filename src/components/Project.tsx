@@ -43,7 +43,7 @@ const Project: React.FC = () => {
         <Card
           image="/morent.png"
           title="The Best Platform for Car Rental"
-          about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent a car at low prices with comfortable facilities."
+          about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent cars at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
         />
           <Card
