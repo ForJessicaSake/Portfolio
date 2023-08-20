@@ -81,7 +81,7 @@ const Skills: React.FC = () => {
               <th className="border text-start px-4 h-10">Languages</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-              JavaScript TypeScript
+              JavaScript <br/> TypeScript
             </td>
           </table>
           <table className="lg:w-52  w-36">

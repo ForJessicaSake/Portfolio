@@ -87,7 +87,7 @@ const GuestWriting: React.FC = () => {
           <span className="text-primary">#</span>Guest Writing
         </h1>
         <figure className="pl-4">
-          <img src={stroke} alt="line" className="lg:w-20 w-32" />
+          <img src={stroke} alt="line" className="lg:w-20 w-24" />
         </figure>
       </section>
       <section className="flex place-items-center w-full">
@@ -109,9 +109,9 @@ const GuestWriting: React.FC = () => {
 
               <figcaption className="w-80">
                 <h2 className="font-semibold h-20 flex items-center lg:text-sm text-sm border-t-0 border px-2 py-2 text-justify">
-                 *{article.publication}* - {article.title}
+                 {article.publication} - {article.title}
                 </h2>
-                <p className="h-32 text-xs border border-t-0 px-2 py-1 text-justify">
+                <p className="font-font h-32 text-xs border border-t-0 px-2 py-1 text-justify">
                   {article.brief}
                 </p>
               </figcaption>

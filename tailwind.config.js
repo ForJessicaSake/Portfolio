@@ -12,6 +12,7 @@ module.exports = {
       },  
       fontFamily:{
         font:["Fira Code", "monospace"],
+        poppins:["Poppins", "sans-serif"],
       },    
     },
   },

@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     setNav(!nav);
   };
   return (
-    <nav className="flex bg-black overflow-hidden justify-between items-center lg:h-20 h-20 cursor-pointer fixed left-0 w-full 2xl:mx-auto 2xl:container z-20">
+    <nav className="font-font flex bg-black overflow-hidden justify-between items-center lg:h-20 h-20 cursor-pointer fixed left-0 w-full 2xl:mx-auto 2xl:container z-20">
       <section className="flex text-white justify-between w-full items-center px-6">
         <figure className="flex items-center lg:w-24 w-28 justify-between">
           <img src={Logo} alt="Logo" className="w-6 h-6 lg:w-5 lg:h-5" />
@@ -43,12 +43,12 @@ const Navbar: React.FC = () => {
       >
         <li>
           <a href="#about" className="active:text-white">
-            <span className="text-primary">#</span>about-me
+            <span className="text-primary">#</span>About-me
           </a>
         </li>
         <li>
           <a className="active:text-white" href="#skills">
-            <span className="text-primary">#</span>skills
+            <span className="text-primary">#</span>Skills
           </a>
         </li>
         {/* <li>
@@ -59,17 +59,17 @@ const Navbar: React.FC = () => {
 
         <li>
           <a className="active:text-white" href="#project">
-            <span className="text-primary">#</span>project
+            <span className="text-primary">#</span>Project
           </a>
         </li>
         <li>
           <a className="active:text-white" href="#publications">
-            <span className="text-primary">#</span>publications
+            <span className="text-primary">#</span>Publications
           </a>
         </li>
         <li>
           <a className="active:text-white" href="#contact">
-            <span className="active:text-primary text-primary">#</span>contact
+            <span className="active:text-primary text-primary">#</span>Contact
           </a>
         </li>
       </ul>

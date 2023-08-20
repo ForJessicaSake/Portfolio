@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
           <img src={stroke} alt="line" />
         </figure>
       </section>
-      <section className="flex lg:flex-row flex-col justify-between text-sm">
+      <section className="flex lg:flex-row flex-col justify-between text-base">
         <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-justify mt-4">
           <p>
             I'm on the lookout for some new opportunities to flex my skills and
@@ -58,8 +58,8 @@ const Contact: React.FC = () => {
             message. I'm game!
           </p>
         </div>
-        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4">
-          <h3 className="text-white">Message me here</h3>
+        <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4 text-sm">
+          <h3 className="text-white text-base py-2">Message me here</h3>
           <a className="flex w-64 justify-between items-center" href="mailto:jessicajoseph1807@gmail.com">
             <img src={email} alt="email" className="h-5 w-5" />
             jessicajoseph1807@gmail.com

@@ -12,7 +12,7 @@ import GuestWriting from '../components/GuestWriting'
 
 const Home:React.FC = () => {
   return (
-    <main className='2xl:container 2xl:mx-auto bg-black font-font text-secondary px-2 overflow-x-hidden'>
+    <main className='2xl:container 2xl:mx-auto bg-black font-poppins text-secondary px-2 overflow-x-hidden'>
     <Navbar/>
     <Header/>
     {/* <Box/> */}

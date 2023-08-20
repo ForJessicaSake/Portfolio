@@ -27,12 +27,12 @@ const Header: React.FC = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-once="false"
-          className="lg:text-3xl text-2xl font-semibold"
+          className="lg:text-4xl text-3xl font-semibold"
         >
           Hello 👋🏼
           <br />
         </h1>
-        <p className="py-6 text-sm text-justify leading-7">
+        <p className="py-6 text-base text-justify leading-7">
           I am <span className="text-primary">Jessica</span> a detail-oriented{" "}
           <span className="text-primary font-medium">Software Developer</span>,
           currently building quality applications using JavaScript and its
