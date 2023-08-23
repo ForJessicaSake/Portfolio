@@ -34,15 +34,6 @@ const GuestWriting: React.FC = () => {
     },
 
     {
-      id: 1,
-      publication: "Turing",
-      link: "https://www.turing.com/kb/how-to-create-slider-in-js",
-      title: "How to Create a Slider in JavaScript?",
-      coverImage: "/slider.png",
-      brief:
-        "Are you fed up with your website’s unorganized content? Want to add some interactive elements that'll engage your visitors and make them come back for more? The JavaScript slider has an engaging capability and here is how to use it properly.",
-    },
-    {
       id: 6,
       publication: "Pieces",
       link: "https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework",
@@ -52,15 +43,23 @@ const GuestWriting: React.FC = () => {
       brief:
         "When starting a dev career, you probably had no idea where to begin. But, once you found something interesting, you decided to learn it. When it comes to choosing a framework, it’s the same hurdle.",
     },
-
     {
-      id: 2,
+      id: 1,
       publication: "Turing",
-      link: "https://www.turing.com/kb/nextjs-server-side-rendering",
-      title: "How to Build a Next.js App With Server-Side Rendering",
-      coverImage: "/ssr.png",
+      link: "https://www.turing.com/kb/how-to-create-slider-in-js",
+      title: "How to Create a Slider in JavaScript?",
+      coverImage: "/slider.png",
       brief:
-        "Enter Next.js, a React framework, which introduced a technique that addressed the shortcomings of React. This article will explore Next.js server-side rendering and its ability to improve an application’s user experience and SEO.",
+        "Are you fed up with your website’s unorganized content? Want to add some interactive elements that'll engage your visitors and make them come back for more? The JavaScript slider has an engaging capability and here is how to use it properly.",
+    },
+    {
+      id: 3,
+      publication: "Turing",
+      link: "https://www.turing.com/kb/check-type-of-objects-variables-in-typescript",
+      title: "Typescript: How to Check Type of Objects & Variable",
+      coverImage: "/types.png",
+      brief:
+        "Many developers are embracing TypeScript to build scalable applications because it enforces static typing. However, when working with variables or objects of the union type, you may want to narrow these types down to do something more specific...",
     },
     {
       id: 4,
@@ -71,15 +70,6 @@ const GuestWriting: React.FC = () => {
       coverImage: "/state.png",
       brief:
         "Think of state as the current value of a variable in a React application that changes over time when an action or event occurs. It is a major concern of any react application because the only time a react application re-renders is when its state changes.",
-    },
-    {
-      id: 3,
-      publication: "Turing",
-      link: "https://www.turing.com/kb/check-type-of-objects-variables-in-typescript",
-      title: "Typescript: How to Check Type of Objects & Variable",
-      coverImage: "/types.png",
-      brief:
-        "Many developers are embracing TypeScript to build scalable applications because it enforces static typing. However, when working with variables or objects of the union type, you may want to narrow these types down to do something more specific...",
     },
   ];
 
