@@ -56,7 +56,7 @@ const Publications:React.FC = () => {
     <section className="flex flex-col px-6 pb-20" >
       <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10" id="publications">
         <h1 className="lg:text-2xl text-xl">
-          <span className="text-primary">#</span>Publications
+          <span className="text-primary">#</span> Blog
         </h1>
         <figure className="pl-4">
           <img src={stroke} alt="line" className="lg:w-20 w-32" />
@@ -73,7 +73,7 @@ const Publications:React.FC = () => {
         )}
         {status === "success" && (
           <div className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
-            {data?.map((articles: ArticleType) => (
+            {data?.slice(0,3).map((articles: ArticleType) => (
               <article
                 key={articles.id}
                 className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"

@@ -31,7 +31,7 @@ const Project: React.FC = () => {
         <Card
           image={Empower}
           title="Empower Her Community Website"
-          about="I explored Next.js, and learned the importance of teamwork while building and maintaining the redesign of the community website as the engineering lead."
+          about="I explored Next.js, Tailwind and learned the importance of teamwork while building and maintaining the redesign of the community website as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
         <Card

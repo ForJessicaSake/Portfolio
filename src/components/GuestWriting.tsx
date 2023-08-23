@@ -25,9 +25,18 @@ const GuestWriting: React.FC = () => {
         "Want to make sure your API keys are safe and sound when working with React? I've got you covered! From using environment variables to building your own back-end proxy server.",
     },
   
-
     {
-      id: 2,
+      id: 4,
+      publication: "Open Replay",
+      link: "https://blog.openreplay.com/you-dont-need-a-state-management-library--use-ustate-plus-context/",
+      title:
+        "You Don't Need A State Management Library -- Use UseState Plus Context",
+      coverImage: "/state.png",
+      brief:
+        "Think of state as the current value of a variable in a React application that changes over time when an action or event occurs. It is a major concern of any react application because the only time a react application re-renders is when its state changes.",
+    },
+    {
+      id: 6,
       publication: "Pieces",
       link: "https://code.pieces.app/blog/everything-you-need-to-know-to-choose-a-modern-javascript-framework",
       title:
@@ -37,7 +46,7 @@ const GuestWriting: React.FC = () => {
         "When starting a dev career, you probably had no idea where to begin. But, once you found something interesting, you decided to learn it. When it comes to choosing a framework, it’s the same hurdle.",
     },
     {
-      id: 4,
+      id: 2,
       publication: "Turing",
       link: "https://www.turing.com/kb/nextjs-server-side-rendering",
       title: "How to Build a Next.js App With Server-Side Rendering",
@@ -65,16 +74,6 @@ const GuestWriting: React.FC = () => {
         "Are you fed up with your website’s unorganized content? Want to add some interactive elements that'll engage your visitors and make them come back for more? The JavaScript slider has an engaging capability and here is how to use it properly.",
     },
 
-    {
-      id: 6,
-      publication: "Open Replay",
-      link: "https://blog.openreplay.com/you-dont-need-a-state-management-library--use-ustate-plus-context/",
-      title:
-        "You Don't Need A State Management Library -- Use UseState Plus Context",
-      coverImage: "/state.png",
-      brief:
-        "Think of state as the current value of a variable in a React application that changes over time when an action or event occurs. It is a major concern of any react application because the only time a react application re-renders is when its state changes.",
-    },
   ];
 
   return (
@@ -92,7 +91,7 @@ const GuestWriting: React.FC = () => {
       </section>
       <section className="flex place-items-center w-full">
         <div className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
-          {articles?.map((article) => (
+          {articles?.slice(0,3).map((article) => (
             <article
               key={article.id}
               className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
