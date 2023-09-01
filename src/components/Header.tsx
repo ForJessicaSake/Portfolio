@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           <br />
           <br />
           Since graduation, I've put my skills to the test and gained hands-on
-          Frontend work experience by contributing to a couple of private and
+          Frontend work experience by contributing to a couple of work and
           public projects. I also frquently publish a variety of articles about
           my experiences as a{" "}
           <span className="text-primary font-medium"> Technical Writer</span> or
