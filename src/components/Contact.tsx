@@ -13,7 +13,7 @@ import { useRef } from "react";
 import { toast } from "react-toastify";
 
 const Contact: React.FC = () => {
-  const [toMail, setToMail] = useAtom(mail);
+  const [toMail, setToMail] = useAtom (mail);
   const submit = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
         </figure>
       </section>
       <section className="flex lg:flex-row flex-col justify-between text-base">
-        <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-justify mt-4">
+        <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-sm leading-7 text-justify mt-4">
           <p>
             I'm on the lookout for some new opportunities to flex my skills and
             expertise. If you're in need of a go-getter who's not afraid to roll

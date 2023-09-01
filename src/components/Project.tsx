@@ -19,19 +19,31 @@ const Project: React.FC = () => {
   });
   return (
     <section className="flex flex-col px-6 pb-20" id="project">
-      <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10">
+      <section className="flex justify-start items-center lg:w-5/12 w-72">
         <h1 className="lg:text-2xl text-xl">
           <span className="text-primary ">#</span>Projects
         </h1>
+
         <figure className="pl-4">
           <img src={stroke} alt="line" className="w-36" />
         </figure>
       </section>
+      <p className="lg:w-6/12 w-full md:w-11/12 text-sm text-justify pb-10 pt-5 leading-7">
+        <span className="text-primary"> Skill Development</span> is very
+        important to me, and I believe the best way to master a skill is by
+        building. I've always been a hands-on learner, so I love the challenge
+        of taking a concept and turning it into a working product.
+        <br />
+        <br />
+        Over the course of time, while mastering frontend tools and frameworks,
+        I've developed a couple of projects to showcase my skills. Here are a
+        few of them:
+      </p>
       <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
         <Card
           image={Empower}
           title="Empower Her Community Website"
-          about="I explored Next.js, Tailwind and learned the importance of teamwork while building and maintaining the redesign of the community website as the engineering lead."
+          about="I learned the importance of teamwork while building and maintaining the community website as the engineering lead."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
@@ -42,15 +54,9 @@ const Project: React.FC = () => {
         />
         <Card
           image="/morent.png"
-          title="The Best Platform for Car Rental"
+          title="A Car Rental Application"
           about="Exploring Supabase auth and database, I developed this car rental application that provides an easy way to rent cars at low prices with comfortable facilities."
           link="https://morent-rental.vercel.app/"
-        />
-          <Card
-          image="/inno.png"
-          title="Innovotio's Website"
-          about="Mastering Next.js, I translated this Figma design into frontend codes. A company website - Innovotio."
-          link="https://innovotio-website.vercel.app/"
         />
         <Card
           image="/Ecommerce.png"
@@ -58,18 +64,25 @@ const Project: React.FC = () => {
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
         />
+      <Card
+          image="/inno.png"
+          title="Innovotio's Website"
+          about="Mastering Next.js, I translated this Figma design into frontend codes. A company website - Innovotio."
+          link="https://innovotio-website.vercel.app/"
+        />
+         {/* <Card
+          image={Lamoore}
+          title="Lamoore: A Clothing Store"
+          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
+          link="https://lamoore.vercel.app/"
+        /> */}
+        
          <Card
           image={dockett}
           title="A Sticky Note Application"
           about="My first attempt with Firebase and React. I developed a sticky note application for anyone with a busy schedule!"
           link="https://dockett.vercel.app/"
         />
-        {/* <Card
-          image={Lamoore}
-          title="Lamoore: An Ecommerce Webiste"
-          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
-          link="https://lamoore.vercel.app/"
-        /> */}
         {/* <Card
           image={sunnyside}
           title="Sunny Side Agencies"
@@ -91,8 +104,6 @@ const Project: React.FC = () => {
           about="I recently just heard about AOS and I didn't hesitate to try it out. This Digital marketplace landing page for crypto collectibles and NFTs was developed using Next.js, and AOS library"
           link="https://crypto-art-teal.vercel.app/"
         /> */}
-
-       
       </section>
     </section>
   );

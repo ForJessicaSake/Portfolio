@@ -12,7 +12,7 @@ type ArticleType = {
   brief?: string;
 };
 
-const Publications:React.FC = () => {
+const Publications: React.FC = () => {
   const variables = { page: 0 };
   const query = `
     query GetUserArticles($page: Int!) {
@@ -51,17 +51,22 @@ const Publications:React.FC = () => {
     keepPreviousData: true,
   });
 
-
   return (
-    <section className="flex flex-col px-6 pb-20" >
-      <section className="flex justify-start items-center lg:w-5/12 w-72 pb-10" id="publications">
+    <section className="flex flex-col px-6 pb-20">
+      <section
+        className="flex justify-start items-center lg:w-5/12 w-72"
+        id="publications"
+      >
         <h1 className="lg:text-2xl text-xl">
-          <span className="text-primary">#</span> Blog
+          <span className="text-primary">#</span> My Blog
         </h1>
         <figure className="pl-4">
           <img src={stroke} alt="line" className="lg:w-20 w-32" />
         </figure>
       </section>
+      <p className="lg:w-6/12 w-full md:w-11/12 text-sm text-justify pb-10 pt-5 leading-7">
+        I write because I love sharing what I've learned with others, and a couple of
+        my articles on Hashnode have benefited a ton of people in the community</p>
       <section className="flex place-items-center w-full">
         {status === "error" && (
           <p className="text-sm font-light text-center">
@@ -73,14 +78,15 @@ const Publications:React.FC = () => {
         )}
         {status === "success" && (
           <div className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 lg:gap-5 gap-6 place-items-center w-full">
-            {data?.slice(0,3).map((articles: ArticleType) => (
+            {data?.map((articles: ArticleType) => (
               <article
                 key={articles.id}
                 className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
               >
                 <figure className="border w-80">
                   <Link
-                    to={`https://forjessicasake.hashnode.dev/${articles.slug}` } target="blank" 
+                    to={`https://forjessicasake.hashnode.dev/${articles.slug}`}
+                    target="blank"
                   >
                     <img
                       src={articles.coverImage}

@@ -32,17 +32,23 @@ const Header: React.FC = () => {
           Hello 👋🏼
           <br />
         </h1>
-        <p className="py-6 text-base text-justify leading-7">
-          I am <span className="text-primary">Jessica,</span> a detail-oriented{" "}
-          <span className="text-primary font-medium">Software Developer</span>{" "}
-          currently building quality applications using JavaScript and its
-          frameworks.
+        <p className="py-6 text-sm text-justify leading-7">
+          I am <span className="text-primary"> Jessica,</span> a detail-oriented{" "}
+          <span className="text-primary font-medium">Frontend Engineer</span>{" "}
+          who loves building quality applications using JavaScript and its
+          frameworks. I started my journey in 2021, after attending my first
+          tech event with <span className="text-primary"> SheCodeAfrica</span>,
+          a community I joined while studying computer science at the University
+          of Nigeria.
           <br />
           <br />
-          In my spare time, I enjoy exploring Backend-as-a-Service tools to
-          build cool applications, and I frequently publish a variety of articles
-          as a <span className="text-primary font-medium">Technical Writer</span> or on my
-          hashnode blog.
+          Since graduation, I've put my skills to the test and gained hands-on
+          Frontend work experience by contributing to a couple of private and
+          public projects. I also frquently publish a variety of articles about
+          my experiences as a{" "}
+          <span className="text-primary font-medium"> Technical Writer</span> or
+          on my hashnode blog and when I'm not doing any of these things, you'd
+          find me with my chess board.
         </p>
         <a href="#contact">
           <Button text="contact me!" />
