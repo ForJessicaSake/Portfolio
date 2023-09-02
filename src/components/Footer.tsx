@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             </figcaption>
           </figure>
         </section>
-        <div className="text-base">
+        <div className="md:text-base text-sm">
 
         <p className="py-3">jessicajoseph1807@gmail.com</p>
         <p>Frontend Developer and Technical Writer</p>
