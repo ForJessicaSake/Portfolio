@@ -9,7 +9,6 @@ import sunnyside from "../assets/sunnyside.png";
 import todo from "../assets/todo.png";
 import Empower from "../assets/Empower.png";
 import Lamoore from "../assets/Lamoore.png";
-import inno from "../assets/inno.png";
 import crypto from "../assets/art.png";
 import goalTracker from "../assets/goalTracker2.png";
 

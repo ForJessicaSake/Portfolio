@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
       <section className="flex lg:flex-row flex-col justify-between text-base">
         <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-sm leading-7 text-justify mt-4">
           <p>
-            I'm on the lookout for some new opportunities to flex my skills and
+           I'm on the lookout for some new opportunities to flex my skills and
             expertise. If you're in need of a go-getter who's not afraid to roll
             up their sleeves and tackle any challenge, feel free to shoot me a
             message. I'm game!

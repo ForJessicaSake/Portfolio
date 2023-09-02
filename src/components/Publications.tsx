@@ -66,7 +66,7 @@ const Publications: React.FC = () => {
       </section>
       <p className="lg:w-6/12 w-full md:w-11/12 text-sm text-justify pb-10 pt-5 leading-7">
         I write because I love sharing what I've learned with others, and a couple of
-        my articles on Hashnode have benefited a ton of people in the community</p>
+        my articles on Hashnode have benefited a lot of people in the dev community</p>
       <section className="flex place-items-center w-full">
         {status === "error" && (
           <p className="text-sm font-light text-center">
