@@ -26,16 +26,16 @@ const Footer: React.FC = () => {
       <section className="flex flex-col lg:py-0 py-8">
         <h1 className="text-xl text-white">Media</h1>
         <figure className="flex justify-between items-center w-32 py-3">
-          <Link to="https://github.com/ForJessicaSake">
+          <Link to="https://github.com/ForJessicaSake" target="_blank">
             <img src={GitHub} alt="GitHub" className="h-8 w-8" />
           </Link>
-          <Link to="https://hashnode.com/@ForJessicasake">
+          <Link to="https://hashnode.com/@ForJessicasake" target="_blank">
             <SiHashnode className="h-5 w-5" />
           </Link>
-          <Link to="https://www.linkedin.com/in/jessica-joseph-/">
+          <Link to="https://www.linkedin.com/in/jessica-joseph-/" target="_blank">
             <FiLinkedin className="h-5 w-5" />
           </Link>
-          <Link to="https://twitter.com/forJessica_sake">
+          <Link to="https://twitter.com/forJessica_sake" target="_blank">
             <FiTwitter className="h-5 w-5" />
           </Link>
         </figure>

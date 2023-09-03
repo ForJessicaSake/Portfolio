@@ -54,16 +54,16 @@ const Header: React.FC = () => {
           <Button text="contact me!" />
         </a>
         <figure className="flex justify-between items-center w-40 py-1">
-          <Link to="https://github.com/ForJessicaSake">
+          <Link to="https://github.com/ForJessicaSake" target="_blank">
             <img src={GitHub} alt="GitHub" className="h-10 w-10" />
           </Link>
-          <Link to="https://hashnode.com/@ForJessicasake">
+          <Link to="https://hashnode.com/@ForJessicasake"target="_blank" >
             <SiHashnode className="h-6 w-6" />
           </Link>
-          <Link to="https://www.linkedin.com/in/jessica-joseph-/">
+          <Link to="https://www.linkedin.com/in/jessica-joseph-/" target="_blank">
             <FiLinkedin className="h-6 w-6" />
           </Link>
-          <Link to="https://twitter.com/forJessica_sake">
+          <Link to="https://twitter.com/forJessica_sake" target="_blank">
             <FiTwitter className="h-6 w-6" />
           </Link>
         </figure>
