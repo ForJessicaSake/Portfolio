@@ -13,7 +13,7 @@ import { useRef } from "react";
 import { toast } from "react-toastify";
 
 const Contact: React.FC = () => {
-  const [toMail, setToMail] = useAtom (mail);
+  const [toMail, setToMail] = useAtom(mail);
   const submit = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -52,15 +52,19 @@ const Contact: React.FC = () => {
       <section className="flex lg:flex-row flex-col justify-between text-base">
         <div className="w-full lg:w-6/12 lg:pb-0 pb-6 text-sm leading-7 text-justify mt-4">
           <p>
-           I'm on the lookout for some new opportunities to flex my skills and
-            expertise. If you're in need of a go-getter who's not afraid to roll
-            up their sleeves and tackle any challenge, feel free to shoot me a
-            message. I'm game!
+            Currently, I'm on the lookout for some new opportunities to flex my
+            skills and expertise. If you're in need of a go-getter who's not
+            afraid to roll up their sleeves and tackle any challenge, feel free
+            to{" "} <span className="text-primary "> shoot me a message</span>. I'm
+            game!
           </p>
         </div>
         <div className="w-full lg:w-3/12 leading-10 border px-4 lg:mb-0 mb-5 mt-4 text-sm">
           <h3 className="text-white text-base py-2">Message me here</h3>
-          <a className="flex w-64 justify-between items-center" href="mailto:jessicajoseph1807@gmail.com">
+          <a
+            className="flex w-64 justify-between items-center"
+            href="mailto:jessicajoseph1807@gmail.com"
+          >
             <img src={email} alt="email" className="h-5 w-5" />
             jessicajoseph1807@gmail.com
           </a>

@@ -34,8 +34,8 @@ const Header: React.FC = () => {
         </h1>
         <p className="py-6 text-sm text-justify leading-7">
           I am <span className="text-primary"> Jessica,</span> a detail-oriented{" "}
-          <span className="text-primary font-medium">Frontend Engineer</span>{" "}
-          who loves building quality applications using JavaScript and its
+          <span className="text-primary font-medium">Frontend Developer </span>{" "} at
+          <span className="text-primary font-medium"> Brimble </span>   who loves building quality applications using JavaScript and its
           frameworks. I started my journey in 2021, after attending my first
           tech event with <span className="text-primary"> SheCodeAfrica</span>,
           a community I joined while studying computer science at the University
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           <br />
           <br />
           Since graduation, I've put my skills to the test and gained hands-on
-          Frontend work experience by contributing to a couple of work and
+          Frontend work experience by contributing to a couple of private and
           public projects. I also frquently publish a variety of articles about
           my experiences as a{" "}
           <span className="text-primary font-medium"> Technical Writer</span> or

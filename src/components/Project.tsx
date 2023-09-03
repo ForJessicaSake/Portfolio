@@ -34,8 +34,8 @@ const Project: React.FC = () => {
         of taking a concept and turning it into a working product.
         <br />
         <br />
-        Over the course of time, while mastering frontend tools and frameworks,
-        I've developed a couple of public projects to showcase my skills. Here are a
+        Over the course of time, while learning and mastering frontend tools and frameworks,
+        I've developed a couple of projects to showcase my skills. Here are a
         few of them:
       </p>
       <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
@@ -66,7 +66,7 @@ const Project: React.FC = () => {
       <Card
           image="/inno.png"
           title="Innovotio's Website"
-          about="Mastering Next.js, I translated this Figma design into frontend codes. A company website - Innovotio."
+          about="Mastering Tailwind, I translated this Figma design into frontend codes. A company website - Innovotio."
           link="https://innovotio-website.vercel.app/"
         />
          {/* <Card
