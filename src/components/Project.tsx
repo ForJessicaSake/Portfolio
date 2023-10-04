@@ -36,13 +36,13 @@ const Project: React.FC = () => {
         <br />
         Over the course of time, while learning and mastering frontend tools and frameworks,
         I've developed a couple of projects to showcase my skills. Here are a
-        few of them:
+        few:
       </p>
       <section className="grid md:grid-cols-2 grid-col-1 lg:grid-cols-3 gap-6 lg:gap-5 place-items-center w-full text-xs">
         <Card
           image={Empower}
           title="Empower Her Community Website"
-          about="I learned the importance of teamwork while building and maintaining the community website as the engineering lead."
+          about="I learned the importance of teamwork while building and maintaining the community website as the engineering lead using frontend tools like Next and Tailwind."
           link="https://empower-her-community.vercel.app/"
         />
         <Card
