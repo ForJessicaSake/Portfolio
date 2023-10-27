@@ -67,7 +67,7 @@ const Project: React.FC = () => {
           image="/inno.png"
           title="Innovotio's Website"
           about="Mastering Tailwind, I translated this Figma design into frontend codes. A company website - Innovotio."
-          link="https://innovotio-website.vercel.app/"
+          link="https://development-innovotio.vercel.app/"
         />
          {/* <Card
           image={Lamoore}
