@@ -15,14 +15,15 @@ type ArticleType = {
 const GuestWriting: React.FC = () => {
   const articles = [
     {
-      id: 5,
-      publication: "Smashing Magazine",
-      link: "https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/",
-      title: "The Safest Way To Hide Your API Keys When Using React",
-      coverImage: "/API.png",
+      id: 2,
+      publication: "Open Replay",
+      link: "https://blog.openreplay.com/static-side-generation-vs-server-side-rendering",
+      title: "Static Site Generation Vs Server Side Rendering",
+      coverImage: "ssg.png",
       brief:
-        "Want to make sure your API keys are safe and sound when working with React? I've got you covered!",
+        "Today, where time is of the essence, the speed and visibility of your website can make or break your digital presence.",
     },
+
     {
       id: 1,
       publication: "Turing",
@@ -43,13 +44,13 @@ const GuestWriting: React.FC = () => {
         "When starting a dev career, you probably had no idea where to begin. But, once you found something interesting, you decided to learn it. When it comes to choosing a framework, it’s the same hurdle.",
     },
     {
-      id: 2,
-      publication: "Turing",
-      link: "https://www.turing.com/kb/nextjs-server-side-rendering",
-      title: "How to Build a Next.js App With Server-Side Rendering",
-      coverImage: "/ssr.png",
+      id: 5,
+      publication: "Smashing Magazine",
+      link: "https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/",
+      title: "The Safest Way To Hide Your API Keys When Using React",
+      coverImage: "/API.png",
       brief:
-        "Enter Next.js, a React framework, which introduced a technique that addressed the shortcomings of React. ",
+        "Want to make sure your API keys are safe and sound when working with React? I've got you covered!",
     },
 
     {
@@ -98,9 +99,9 @@ const GuestWriting: React.FC = () => {
           {articles?.map((article) => (
             <article
               key={article.id}
-              className="items-center text-justify cursor-pointer hover:shadow-2xl shadow-lg"
+              className="items-center text-justify hover:shadow-2xl shadow-lg"
             >
-              <figure className="border w-80">
+              <figure className="border w-80 cursor-pointer">
                 <Link to={article.link} target="blank">
                   <img
                     src={article.coverImage}
