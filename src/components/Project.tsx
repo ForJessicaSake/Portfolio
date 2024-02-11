@@ -63,18 +63,18 @@ const Project: React.FC = () => {
           about="I Mastered Zustand state management library by building this React application that allows you to order groceries easily on the website."
           link="https://ecommerce.brimble.app/"
         />
-      <Card
+{/*       <Card
           image="/inno.png"
           title="Innovotio's Website"
           about="Mastering Tailwind, I translated this Figma design into frontend codes. A company website - Innovotio."
           link="https://development-innovotio.vercel.app/"
-        />
-         {/* <Card
+        /> */}
+         <Card
           image={Lamoore}
           title="Lamoore: A Clothing Store"
-          about="I mastered the use of Web APIs and React on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
+          about="I mastered the use of Rest APIs and JavaScript array methods on this ecommerce store called Lamoore. It provides fast, seamless, and enjoyable online shopping for all your clothing needs!."
           link="https://lamoore.vercel.app/"
-        /> */}
+        />
         
          <Card
           image={dockett}
