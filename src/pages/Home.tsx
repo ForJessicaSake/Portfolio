@@ -5,6 +5,7 @@ import Skills from '../components/Skills'
 import Header from '../components/Header'
 import Project from '../components/Project'
 import GuestWriting from '../components/GuestWriting'
+import Publications from '../components/Publications'
 
 const Home:React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Home:React.FC = () => {
     <Skills/>
     <Project/>
     <GuestWriting/>
+    <Publications/>
     <Contact/>
     <Footer/>
     </main>

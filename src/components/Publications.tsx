@@ -28,12 +28,14 @@ const Publications: React.FC = () => {
         }
     }
   `;
+  
 
   const fetchData = async (): Promise<ArticleType[]> => {
-    const data = await fetch("https://api.hashnode.com/", {
+    const data = await fetch("https://api.hashnode.com/v1/me/articles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Authorization: `b26ae415-c964-44f1-956b-564677d1ff95`,
       },
       body: JSON.stringify({
         query,
@@ -44,7 +46,7 @@ const Publications: React.FC = () => {
     const result = await data.json();
     const post = result.data.user.publication.posts;
 
-    return post; // Ensure to return the data from the function
+    return post;
   };
   const [pages] = useAtom(page);
   const { data, status } = useQuery<ArticleType[]>(["page", pages], fetchData, {

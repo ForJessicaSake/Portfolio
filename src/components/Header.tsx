@@ -34,7 +34,7 @@ const Header: React.FC = () => {
         </h1>
         <p className="py-6 text-sm text-justify leading-7">
           I am <span className="text-primary"> Jessica,</span> a detail-oriented{" "}
-          <span className="text-primary font-medium">Frontend Developer </span>{" "}  who loves building quality applications using JavaScript and its
+          <span className="text-primary font-medium">Software Engineer </span>{" "}  who loves building quality applications using JavaScript and its
           frameworks. I started my journey in 2021, after attending my first
           tech event with <span className="text-primary"> SheCodeAfrica</span>,
           a community I joined while studying computer science at the University

@@ -83,6 +83,8 @@ const GuestWriting: React.FC = () => {
     },
   ];
 
+
+
   return (
     <section className="flex flex-col px-6 pb-20">
       <section
