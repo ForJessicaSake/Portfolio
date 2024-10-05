@@ -63,15 +63,6 @@ const GuestWriting: React.FC = () => {
     },
 
     {
-      id: 3,
-      publication: "Turing",
-      link: "https://www.turing.com/kb/check-type-of-objects-variables-in-typescript",
-      title: "Typescript: How to Check Type of Objects & Variable",
-      coverImage: "/types.png",
-      brief:
-        "When working with variables or objects of the union type, you may want to narrow these types down to do something more specific...",
-    },
-    {
       id: 4,
       publication: "Open Replay",
       link: "https://blog.openreplay.com/you-dont-need-a-state-management-library--use-ustate-plus-context/",
@@ -80,6 +71,15 @@ const GuestWriting: React.FC = () => {
       coverImage: "/state.png",
       brief:
         "Think of state as the current value of a variable in a React application that changes over time when an action or event occurs.",
+    },
+    {
+      id: 3,
+      publication: "Turing",
+      link: "https://www.turing.com/kb/check-type-of-objects-variables-in-typescript",
+      title: "Typescript: How to Check Type of Objects & Variable",
+      coverImage: "/types.png",
+      brief:
+        "When working with variables or objects of the union type, you may want to narrow these types down to do something more specific...",
     },
   ];
 
