@@ -15,7 +15,16 @@ type ArticleType = {
 const GuestWriting: React.FC = () => {
   const articles = [
     {
-      id: 3,
+      id: 5,
+      publication: "Smashing Magazine",
+      link: "https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/",
+      title: "The Safest Way To Hide Your API Keys When Using React",
+      coverImage: "/API.png",
+      brief:
+        "Want to make sure your API keys are safe and sound when working with React? I've got you covered!",
+    },
+    {
+      id: 7,
       publication: "Frontend Mentor",
       link: "https://www.frontendmentor.io/articles/managing-complex-forms-in-react-using-formik-and-yup-C2DlPAsgp6",
       title: "Managing complex forms in React using Formik and Yup",
@@ -51,15 +60,6 @@ const GuestWriting: React.FC = () => {
       coverImage: "/framework.png",
       brief:
         "When starting a dev career, you probably had no idea where to begin. But, once you found something interesting, you decided to learn it. When it comes to choosing a framework, it’s the same hurdle.",
-    },
-    {
-      id: 5,
-      publication: "Smashing Magazine",
-      link: "https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/",
-      title: "The Safest Way To Hide Your API Keys When Using React",
-      coverImage: "/API.png",
-      brief:
-        "Want to make sure your API keys are safe and sound when working with React? I've got you covered!",
     },
 
     {
