@@ -51,8 +51,7 @@ const Skills: React.FC = () => {
           </figure>
         </div>
         <div className=" grid grid-cols-2 lg:grid-cols-3 gap-4 text-sm w-12/12 lg:w-8/12 lg:pb-0 pb-16">
-          
-        <table
+          <table
             className="lg:w-52  w-36"
             data-aos="fade-down"
             data-aos-offset="100"
@@ -81,7 +80,7 @@ const Skills: React.FC = () => {
               <th className="border text-start px-4 h-10">Languages</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-              JavaScript <br/> TypeScript
+              JavaScript <br /> TypeScript <br /> Node
             </td>
           </table>
           <table className="lg:w-52  w-36">
@@ -93,7 +92,6 @@ const Skills: React.FC = () => {
             </td>
           </table>
 
-       
           <table
             className="lg:w-52  w-36"
             data-aos="fade-up"
@@ -111,17 +109,15 @@ const Skills: React.FC = () => {
             </td>
           </table>
 
-         
           <table className="lg:w-52  w-36">
             <tr>
               <th className="border text-start px-4 h-10">Frameworks</th>
             </tr>
             <td className="border border-t-0 px-4 py-2 leading-6">
-              React <br /> Next <br/> React Native
+              React <br /> Next <br /> React Native
             </td>
           </table>
 
-        
           <table
             className="lg:w-52  w-36"
             data-aos="fade-left"
