@@ -15,6 +15,15 @@ type ArticleType = {
 const GuestWriting: React.FC = () => {
   const articles = [
     {
+      id: 3,
+      publication: "Frontend Mentor",
+      link: "https://www.frontendmentor.io/articles/managing-complex-forms-in-react-using-formik-and-yup-C2DlPAsgp6",
+      title: "Managing complex forms in React using Formik and Yup",
+      coverImage: "formik.png",
+      brief:
+        "Managing complex forms in React isn't easy. Luckily, libraries like Formik and Yup exist to make creating complex forms simpler.",
+    },
+    {
       id: 2,
       publication: "Open Replay",
       link: "https://blog.openreplay.com/static-side-generation-vs-server-side-rendering",
